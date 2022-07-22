@@ -1,0 +1,10 @@
+E:\CSharp\repos\YangZhongkeDotNet\DotNetStandardLibTest\obj\Debug\netstandard2.0\DotNetStandardLibTest.csproj.AssemblyReference.cache
+E:\CSharp\repos\YangZhongkeDotNet\DotNetStandardLibTest\obj\Debug\netstandard2.0\DotNetStandardLibTest.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\YangZhongkeDotNet\DotNetStandardLibTest\obj\Debug\netstandard2.0\DotNetStandardLibTest.AssemblyInfoInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\DotNetStandardLibTest\obj\Debug\netstandard2.0\DotNetStandardLibTest.AssemblyInfo.cs
+E:\CSharp\repos\YangZhongkeDotNet\DotNetStandardLibTest\obj\Debug\netstandard2.0\DotNetStandardLibTest.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\DotNetStandardLibTest\bin\Debug\netstandard2.0\DotNetStandardLibTest.deps.json
+E:\CSharp\repos\YangZhongkeDotNet\DotNetStandardLibTest\bin\Debug\netstandard2.0\DotNetStandardLibTest.dll
+E:\CSharp\repos\YangZhongkeDotNet\DotNetStandardLibTest\bin\Debug\netstandard2.0\DotNetStandardLibTest.pdb
+E:\CSharp\repos\YangZhongkeDotNet\DotNetStandardLibTest\obj\Debug\netstandard2.0\DotNetStandardLibTest.dll
+E:\CSharp\repos\YangZhongkeDotNet\DotNetStandardLibTest\obj\Debug\netstandard2.0\DotNetStandardLibTest.pdb

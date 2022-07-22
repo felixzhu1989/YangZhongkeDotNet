@@ -1,0 +1,15 @@
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppAsyncAwait\bin\Debug\net6.0\ConsoleAppAsyncAwait.exe
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppAsyncAwait\bin\Debug\net6.0\ConsoleAppAsyncAwait.deps.json
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppAsyncAwait\bin\Debug\net6.0\ConsoleAppAsyncAwait.runtimeconfig.json
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppAsyncAwait\bin\Debug\net6.0\ConsoleAppAsyncAwait.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppAsyncAwait\bin\Debug\net6.0\ConsoleAppAsyncAwait.pdb
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppAsyncAwait\obj\Debug\net6.0\ConsoleAppAsyncAwait.csproj.AssemblyReference.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppAsyncAwait\obj\Debug\net6.0\ConsoleAppAsyncAwait.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppAsyncAwait\obj\Debug\net6.0\ConsoleAppAsyncAwait.AssemblyInfoInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppAsyncAwait\obj\Debug\net6.0\ConsoleAppAsyncAwait.AssemblyInfo.cs
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppAsyncAwait\obj\Debug\net6.0\ConsoleAppAsyncAwait.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppAsyncAwait\obj\Debug\net6.0\ConsoleAppAsyncAwait.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppAsyncAwait\obj\Debug\net6.0\refint\ConsoleAppAsyncAwait.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppAsyncAwait\obj\Debug\net6.0\ConsoleAppAsyncAwait.pdb
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppAsyncAwait\obj\Debug\net6.0\ConsoleAppAsyncAwait.genruntimeconfig.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppAsyncAwait\obj\Debug\net6.0\ref\ConsoleAppAsyncAwait.dll

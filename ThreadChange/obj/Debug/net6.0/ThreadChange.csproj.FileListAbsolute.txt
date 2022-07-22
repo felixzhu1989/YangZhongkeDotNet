@@ -1,0 +1,15 @@
+E:\CSharp\repos\YangZhongkeDotNet\ThreadChange\bin\Debug\net6.0\ThreadChange.exe
+E:\CSharp\repos\YangZhongkeDotNet\ThreadChange\bin\Debug\net6.0\ThreadChange.deps.json
+E:\CSharp\repos\YangZhongkeDotNet\ThreadChange\bin\Debug\net6.0\ThreadChange.runtimeconfig.json
+E:\CSharp\repos\YangZhongkeDotNet\ThreadChange\bin\Debug\net6.0\ThreadChange.dll
+E:\CSharp\repos\YangZhongkeDotNet\ThreadChange\bin\Debug\net6.0\ThreadChange.pdb
+E:\CSharp\repos\YangZhongkeDotNet\ThreadChange\obj\Debug\net6.0\ThreadChange.csproj.AssemblyReference.cache
+E:\CSharp\repos\YangZhongkeDotNet\ThreadChange\obj\Debug\net6.0\ThreadChange.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\YangZhongkeDotNet\ThreadChange\obj\Debug\net6.0\ThreadChange.AssemblyInfoInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\ThreadChange\obj\Debug\net6.0\ThreadChange.AssemblyInfo.cs
+E:\CSharp\repos\YangZhongkeDotNet\ThreadChange\obj\Debug\net6.0\ThreadChange.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\ThreadChange\obj\Debug\net6.0\ThreadChange.dll
+E:\CSharp\repos\YangZhongkeDotNet\ThreadChange\obj\Debug\net6.0\refint\ThreadChange.dll
+E:\CSharp\repos\YangZhongkeDotNet\ThreadChange\obj\Debug\net6.0\ThreadChange.pdb
+E:\CSharp\repos\YangZhongkeDotNet\ThreadChange\obj\Debug\net6.0\ThreadChange.genruntimeconfig.cache
+E:\CSharp\repos\YangZhongkeDotNet\ThreadChange\obj\Debug\net6.0\ref\ThreadChange.dll

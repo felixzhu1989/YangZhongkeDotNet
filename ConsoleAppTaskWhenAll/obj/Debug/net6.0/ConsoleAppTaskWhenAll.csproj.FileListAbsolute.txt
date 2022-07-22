@@ -1,0 +1,15 @@
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppTaskWhenAll\bin\Debug\net6.0\ConsoleAppTaskWhenAll.exe
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppTaskWhenAll\bin\Debug\net6.0\ConsoleAppTaskWhenAll.deps.json
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppTaskWhenAll\bin\Debug\net6.0\ConsoleAppTaskWhenAll.runtimeconfig.json
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppTaskWhenAll\bin\Debug\net6.0\ConsoleAppTaskWhenAll.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppTaskWhenAll\bin\Debug\net6.0\ConsoleAppTaskWhenAll.pdb
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppTaskWhenAll\obj\Debug\net6.0\ConsoleAppTaskWhenAll.csproj.AssemblyReference.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppTaskWhenAll\obj\Debug\net6.0\ConsoleAppTaskWhenAll.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppTaskWhenAll\obj\Debug\net6.0\ConsoleAppTaskWhenAll.AssemblyInfoInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppTaskWhenAll\obj\Debug\net6.0\ConsoleAppTaskWhenAll.AssemblyInfo.cs
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppTaskWhenAll\obj\Debug\net6.0\ConsoleAppTaskWhenAll.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppTaskWhenAll\obj\Debug\net6.0\ConsoleAppTaskWhenAll.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppTaskWhenAll\obj\Debug\net6.0\refint\ConsoleAppTaskWhenAll.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppTaskWhenAll\obj\Debug\net6.0\ConsoleAppTaskWhenAll.pdb
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppTaskWhenAll\obj\Debug\net6.0\ConsoleAppTaskWhenAll.genruntimeconfig.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppTaskWhenAll\obj\Debug\net6.0\ref\ConsoleAppTaskWhenAll.dll

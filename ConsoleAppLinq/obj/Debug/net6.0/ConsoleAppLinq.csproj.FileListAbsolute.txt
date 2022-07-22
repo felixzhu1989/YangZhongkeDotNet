@@ -1,0 +1,15 @@
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppLinq\bin\Debug\net6.0\ConsoleAppLinq.exe
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppLinq\bin\Debug\net6.0\ConsoleAppLinq.deps.json
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppLinq\bin\Debug\net6.0\ConsoleAppLinq.runtimeconfig.json
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppLinq\bin\Debug\net6.0\ConsoleAppLinq.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppLinq\bin\Debug\net6.0\ConsoleAppLinq.pdb
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppLinq\obj\Debug\net6.0\ConsoleAppLinq.csproj.AssemblyReference.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppLinq\obj\Debug\net6.0\ConsoleAppLinq.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppLinq\obj\Debug\net6.0\ConsoleAppLinq.AssemblyInfoInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppLinq\obj\Debug\net6.0\ConsoleAppLinq.AssemblyInfo.cs
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppLinq\obj\Debug\net6.0\ConsoleAppLinq.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppLinq\obj\Debug\net6.0\ConsoleAppLinq.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppLinq\obj\Debug\net6.0\refint\ConsoleAppLinq.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppLinq\obj\Debug\net6.0\ConsoleAppLinq.pdb
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppLinq\obj\Debug\net6.0\ConsoleAppLinq.genruntimeconfig.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppLinq\obj\Debug\net6.0\ref\ConsoleAppLinq.dll

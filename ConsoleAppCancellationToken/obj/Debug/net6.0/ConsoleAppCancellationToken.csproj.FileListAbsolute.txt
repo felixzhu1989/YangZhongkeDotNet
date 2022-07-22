@@ -1,0 +1,15 @@
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppCancellationToken\bin\Debug\net6.0\ConsoleAppCancellationToken.exe
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppCancellationToken\bin\Debug\net6.0\ConsoleAppCancellationToken.deps.json
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppCancellationToken\bin\Debug\net6.0\ConsoleAppCancellationToken.runtimeconfig.json
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppCancellationToken\bin\Debug\net6.0\ConsoleAppCancellationToken.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppCancellationToken\bin\Debug\net6.0\ConsoleAppCancellationToken.pdb
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppCancellationToken\obj\Debug\net6.0\ConsoleAppCancellationToken.csproj.AssemblyReference.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppCancellationToken\obj\Debug\net6.0\ConsoleAppCancellationToken.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppCancellationToken\obj\Debug\net6.0\ConsoleAppCancellationToken.AssemblyInfoInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppCancellationToken\obj\Debug\net6.0\ConsoleAppCancellationToken.AssemblyInfo.cs
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppCancellationToken\obj\Debug\net6.0\ConsoleAppCancellationToken.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppCancellationToken\obj\Debug\net6.0\ConsoleAppCancellationToken.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppCancellationToken\obj\Debug\net6.0\refint\ConsoleAppCancellationToken.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppCancellationToken\obj\Debug\net6.0\ConsoleAppCancellationToken.pdb
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppCancellationToken\obj\Debug\net6.0\ConsoleAppCancellationToken.genruntimeconfig.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppCancellationToken\obj\Debug\net6.0\ref\ConsoleAppCancellationToken.dll

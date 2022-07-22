@@ -1,0 +1,11 @@
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.AssemblyReference.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.SuggestedBindingRedirects.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleApp2\bin\Debug\DotNetStandardLibTest.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleApp2\bin\Debug\DotNetStandardLibTest.pdb
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CopyComplete
