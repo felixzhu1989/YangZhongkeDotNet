@@ -1,0 +1,10 @@
+E:\CSharp\repos\YangZhongkeDotNet\LogServices\bin\Debug\netstandard2.0\LogServices.deps.json
+E:\CSharp\repos\YangZhongkeDotNet\LogServices\bin\Debug\netstandard2.0\LogServices.dll
+E:\CSharp\repos\YangZhongkeDotNet\LogServices\bin\Debug\netstandard2.0\LogServices.pdb
+E:\CSharp\repos\YangZhongkeDotNet\LogServices\obj\Debug\netstandard2.0\LogServices.csproj.AssemblyReference.cache
+E:\CSharp\repos\YangZhongkeDotNet\LogServices\obj\Debug\netstandard2.0\LogServices.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\YangZhongkeDotNet\LogServices\obj\Debug\netstandard2.0\LogServices.AssemblyInfoInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\LogServices\obj\Debug\netstandard2.0\LogServices.AssemblyInfo.cs
+E:\CSharp\repos\YangZhongkeDotNet\LogServices\obj\Debug\netstandard2.0\LogServices.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\LogServices\obj\Debug\netstandard2.0\LogServices.dll
+E:\CSharp\repos\YangZhongkeDotNet\LogServices\obj\Debug\netstandard2.0\LogServices.pdb

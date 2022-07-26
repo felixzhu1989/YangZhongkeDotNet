@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MailSenderConsole": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "SmtpServer": "zhf.zhf.com"
+      }
+    }
+  }
+}

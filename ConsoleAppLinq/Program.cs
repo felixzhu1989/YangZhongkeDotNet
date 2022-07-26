@@ -121,15 +121,51 @@ foreach (var d in dogs)
 var p = new {Name = "Tom", Id = 1};
 var obj1 = new {Name="jerry", Id = 1, Age=30};
 //投影与匿名类,var的高光时刻
-var resultT =list.Select(e=>new{Name=e.Name,Age=e.Age,Salary=e.Salary});
+var resultT =list.Select(e=>new{e.Name,e.Age,e.Salary});
 foreach (var t in resultT)
 {
     Console.WriteLine($"Name={t.Name},Age={t.Age},Salary={t.Salary}");
 }
 
 //综合运用
+
 var resultAll =list.GroupBy(e=>e.Age).OrderBy(g => g.Key).Select(g=>new{AgeGroup=g.Key,MasSalary=g.Max(e=>e.Salary),MinSalary=g.Min(e=>e.Salary),Count=g.Count()});
 foreach (var a in resultAll)
 {
     Console.WriteLine($"AgeGroup={a.AgeGroup},MasSalary={a.MasSalary},MinSalary={a.MinSalary},Count={a.Count}");
 }
+
+
+//集合转换
+IEnumerable<Employee> employees = list.Where(e => e.Salary > 6000);
+List<Employee> employeeList = employees.ToList();
+Employee[] employeeArray= employees.ToArray();
+
+//链式调用
+//获得Id>2的数据，然后按照Age分组，并且把分组按照Age排序，然后取出前三条数据，最后再投影，取得年龄，人数，平均工资。
+var chainResult = list.Where(e => e.Id > 2).GroupBy(e => e.Age).OrderBy(g => g.Key).Take(3).Select(g => new { AgeGroup = g.Key,Count=g.Count(), AverageSalary = g.Average(e=>e.Salary)});
+foreach (var a in chainResult)
+{
+    Console.WriteLine($"AgeGroup={a.AgeGroup},Count={a.Count},AverageSalary={a.AverageSalary}");
+}
+
+string strScore = "61,90,100,99,18,22,38,66,80,93,55,50,89";
+//var scores = strScore.Split(",");
+//List<int> nums=new List<int>();
+//foreach (var s in scores)
+//{
+//    nums.Add(Convert.ToInt32(s));
+//}
+//var resultAvg=nums.Average(n=>n);
+var resultAvg = strScore.Split(",").Select(s => Convert.ToInt32(s)).Average();
+Console.WriteLine($"Average Score:{resultAvg}");
+
+string strTemp = "ssw,Szsd wDjqw,WlkjaoWjSdk,RpqH elhj";
+//var resultTemp= strTemp.Select(s => s).GroupBy(s => s).OrderBy(g => g.Key).Where(g=>g.Count()>2).Select(g => new {Letter=g.Key,Count = g.Count()});
+var resultTemp = strTemp.Where(char.IsLetter).Select(char.ToLower).GroupBy(c=>c).Select(g => new { Letter = g.Key, Count = g.Count() }).OrderByDescending(g=>g.Count).Where(g=>g.Count>2);
+foreach (var g in resultTemp)
+{
+    Console.WriteLine($"Letter:{g.Letter},Frequency:{g.Count}");
+}
+    
+Console.Read();

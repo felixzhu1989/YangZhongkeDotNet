@@ -1,0 +1,10 @@
+E:\CSharp\repos\YangZhongkeDotNet\ConfigServices\bin\Debug\netstandard2.0\ConfigServices.deps.json
+E:\CSharp\repos\YangZhongkeDotNet\ConfigServices\bin\Debug\netstandard2.0\ConfigServices.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConfigServices\bin\Debug\netstandard2.0\ConfigServices.pdb
+E:\CSharp\repos\YangZhongkeDotNet\ConfigServices\obj\Debug\netstandard2.0\ConfigServices.csproj.AssemblyReference.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConfigServices\obj\Debug\netstandard2.0\ConfigServices.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\YangZhongkeDotNet\ConfigServices\obj\Debug\netstandard2.0\ConfigServices.AssemblyInfoInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConfigServices\obj\Debug\netstandard2.0\ConfigServices.AssemblyInfo.cs
+E:\CSharp\repos\YangZhongkeDotNet\ConfigServices\obj\Debug\netstandard2.0\ConfigServices.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConfigServices\obj\Debug\netstandard2.0\ConfigServices.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConfigServices\obj\Debug\netstandard2.0\ConfigServices.pdb

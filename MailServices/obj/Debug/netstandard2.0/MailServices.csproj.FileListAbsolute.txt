@@ -1,0 +1,15 @@
+E:\CSharp\repos\YangZhongkeDotNet\MailServices\bin\Debug\netstandard2.0\MailServices.deps.json
+E:\CSharp\repos\YangZhongkeDotNet\MailServices\bin\Debug\netstandard2.0\MailServices.dll
+E:\CSharp\repos\YangZhongkeDotNet\MailServices\bin\Debug\netstandard2.0\MailServices.pdb
+E:\CSharp\repos\YangZhongkeDotNet\MailServices\bin\Debug\netstandard2.0\ConfigServices.dll
+E:\CSharp\repos\YangZhongkeDotNet\MailServices\bin\Debug\netstandard2.0\LogServices.dll
+E:\CSharp\repos\YangZhongkeDotNet\MailServices\bin\Debug\netstandard2.0\ConfigServices.pdb
+E:\CSharp\repos\YangZhongkeDotNet\MailServices\bin\Debug\netstandard2.0\LogServices.pdb
+E:\CSharp\repos\YangZhongkeDotNet\MailServices\obj\Debug\netstandard2.0\MailServices.csproj.AssemblyReference.cache
+E:\CSharp\repos\YangZhongkeDotNet\MailServices\obj\Debug\netstandard2.0\MailServices.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\YangZhongkeDotNet\MailServices\obj\Debug\netstandard2.0\MailServices.AssemblyInfoInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\MailServices\obj\Debug\netstandard2.0\MailServices.AssemblyInfo.cs
+E:\CSharp\repos\YangZhongkeDotNet\MailServices\obj\Debug\netstandard2.0\MailServices.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\MailServices\obj\Debug\netstandard2.0\MailServices.csproj.CopyComplete
+E:\CSharp\repos\YangZhongkeDotNet\MailServices\obj\Debug\netstandard2.0\MailServices.dll
+E:\CSharp\repos\YangZhongkeDotNet\MailServices\obj\Debug\netstandard2.0\MailServices.pdb

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "BZdbKmAqPPk5ymP5KSe3hNyIcU2MZxIuoTa5VcCMnHhQxsOV9SSp575qPUJDW+3nsxA12Yjps9awJjzMHHgCIQ==",
+  "success": true,
+  "projectFilePath": "E:\\CSharp\\repos\\YangZhongkeDotNet\\MailSenderConsole\\MailSenderConsole.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\felix.zhu\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\felix.zhu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\felix.zhu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

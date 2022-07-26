@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "MZxq3z+7+qKzxuIWAGOd5RfXD2eTvtoPWTFbCNDLjVAEZ8hS06O5ZSqeB2lnsQBHDCeH2vbR070+sDF+hv2ilg==",
+  "success": true,
+  "projectFilePath": "E:\\CSharp\\repos\\YangZhongkeDotNet\\ConsoleAppDependencyInjection\\ConsoleAppDependencyInjection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\felix.zhu\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\felix.zhu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\felix.zhu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
