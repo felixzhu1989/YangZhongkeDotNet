@@ -1,0 +1,17 @@
+{
+  "profiles": {
+    "ReadCommandLineConfig": {
+      "commandName": "Project",
+      "commandLineArgs": "name=zhf age=18 proxy:address=server proxy:port=80 proxy:ids:0=3 proxy:ids:1=5 proxy:ids:2=8",
+      "environmentVariables": {
+        "C1_proxy:ids:1": "5",
+        "C1_proxy:port": "80",
+        "C1_proxy:ids:2": "8",
+        "C1_proxy:address": "server",
+        "C1_name": "zhf",
+        "C1_age": "18",
+        "C1_proxy:ids:0": "3"
+      }
+    }
+  }
+}

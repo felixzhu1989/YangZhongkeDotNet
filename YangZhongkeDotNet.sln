@@ -31,15 +31,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DepencyInjection", "Depency
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppDependencyInjection", "ConsoleAppDependencyInjection\ConsoleAppDependencyInjection.csproj", "{89DEF10C-8D4C-407F-9BA4-CB01DED59E26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppDiDb", "ConsoleAppDiDb\ConsoleAppDiDb.csproj", "{3F8DA7A6-95D9-4915-82E1-E35F03594B23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppDiDb", "ConsoleAppDiDb\ConsoleAppDiDb.csproj", "{3F8DA7A6-95D9-4915-82E1-E35F03594B23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailSenderConsole", "MailSenderConsole\MailSenderConsole.csproj", "{33E63ABB-2DFD-4BF8-8F66-09DABEB48CBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailSenderConsole", "MailSenderConsole\MailSenderConsole.csproj", "{33E63ABB-2DFD-4BF8-8F66-09DABEB48CBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigServices", "ConfigServices\ConfigServices.csproj", "{1AC7E383-F1CC-4623-9F1C-5BEACC1426B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigServices", "ConfigServices\ConfigServices.csproj", "{1AC7E383-F1CC-4623-9F1C-5BEACC1426B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogServices", "LogServices\LogServices.csproj", "{627F9B39-9F4B-40BC-B0AD-8BD130FCAA35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogServices", "LogServices\LogServices.csproj", "{627F9B39-9F4B-40BC-B0AD-8BD130FCAA35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailServices", "MailServices\MailServices.csproj", "{802FB2DB-B7C7-4FDA-8413-857949C51648}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailServices", "MailServices\MailServices.csproj", "{802FB2DB-B7C7-4FDA-8413-857949C51648}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{B7B84AFF-5A11-4AF5-93BD-618AECF16F9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadJsonConfig", "ReadJsonConfig\ReadJsonConfig.csproj", "{B24D1482-B275-417A-9F23-E041B1A88C2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionSnapshot", "OptionSnapshot\OptionSnapshot.csproj", "{8170B852-E7AE-4BEC-A499-7B943B87AF38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadCommandLineConfig", "ReadCommandLineConfig\ReadCommandLineConfig.csproj", "{B90C4657-7F28-420C-B543-5D51DA7FC6DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -107,6 +115,18 @@ Global
 		{802FB2DB-B7C7-4FDA-8413-857949C51648}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{802FB2DB-B7C7-4FDA-8413-857949C51648}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{802FB2DB-B7C7-4FDA-8413-857949C51648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B24D1482-B275-417A-9F23-E041B1A88C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B24D1482-B275-417A-9F23-E041B1A88C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B24D1482-B275-417A-9F23-E041B1A88C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B24D1482-B275-417A-9F23-E041B1A88C2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8170B852-E7AE-4BEC-A499-7B943B87AF38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8170B852-E7AE-4BEC-A499-7B943B87AF38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8170B852-E7AE-4BEC-A499-7B943B87AF38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8170B852-E7AE-4BEC-A499-7B943B87AF38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B90C4657-7F28-420C-B543-5D51DA7FC6DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B90C4657-7F28-420C-B543-5D51DA7FC6DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B90C4657-7F28-420C-B543-5D51DA7FC6DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B90C4657-7F28-420C-B543-5D51DA7FC6DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -127,6 +147,9 @@ Global
 		{1AC7E383-F1CC-4623-9F1C-5BEACC1426B3} = {A3DB183D-3F39-4944-BE4C-E644D70657F0}
 		{627F9B39-9F4B-40BC-B0AD-8BD130FCAA35} = {A3DB183D-3F39-4944-BE4C-E644D70657F0}
 		{802FB2DB-B7C7-4FDA-8413-857949C51648} = {A3DB183D-3F39-4944-BE4C-E644D70657F0}
+		{B24D1482-B275-417A-9F23-E041B1A88C2F} = {B7B84AFF-5A11-4AF5-93BD-618AECF16F9C}
+		{8170B852-E7AE-4BEC-A499-7B943B87AF38} = {B7B84AFF-5A11-4AF5-93BD-618AECF16F9C}
+		{B90C4657-7F28-420C-B543-5D51DA7FC6DA} = {B7B84AFF-5A11-4AF5-93BD-618AECF16F9C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {42033C1D-7E2F-4ABB-B48E-1E0C242DF569}

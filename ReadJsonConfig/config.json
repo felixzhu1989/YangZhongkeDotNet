@@ -1,0 +1,9 @@
+{
+  "name": "zhf",
+  "age": "18",
+  "proxy": {
+    "address": "server",
+    "port": "80",
+    "ids": [ 3, 5, 8 ]
+  }
+}
