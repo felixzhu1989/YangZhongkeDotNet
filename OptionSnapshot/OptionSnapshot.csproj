@@ -5,14 +5,18 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <UserSecretsId>fff7071c-8b37-42a1-a46a-1b6ed3c68d12</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="4.1.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1" />
     <PackageReference Include="Microsoft.Extensions.Configuration.binder" Version="6.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.json" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
     <PackageReference Include="Microsoft.Extensions.options" Version="6.0.0" />
+    <PackageReference Include="zack.AnyDBConfigProvider" Version="1.1.3" />
   </ItemGroup>
 
   <ItemGroup>

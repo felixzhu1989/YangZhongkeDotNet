@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using System.Reflection;
+using Microsoft.Extensions.Configuration;
 
 ConfigurationBuilder configBuilder = new ConfigurationBuilder();
 //configBuilder.AddCommandLine(args);
@@ -10,6 +11,7 @@ var proxy = configRoot.GetSection("proxy").Get<Proxy>();//将层级节点映射�
 Console.WriteLine($"name={config.Name},age={config.Age}");
 Console.WriteLine($"port={proxy.Address},port={proxy.Port}");
 Console.WriteLine($"ids={string.Join(',',proxy.Ids)}");
+typeof(Config).GetMethod("", BindingFlags.IgnoreCase);
 class Config
 {
     public string Name { get; set; }
