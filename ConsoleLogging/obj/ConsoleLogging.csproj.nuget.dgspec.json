@@ -54,6 +54,14 @@
             "Microsoft.Extensions.Logging.EventLog": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             }
           },
           "imports": [

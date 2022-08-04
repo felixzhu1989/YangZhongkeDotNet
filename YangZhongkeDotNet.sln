@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{5D2B918E-1D9E-426F-8373-2255A17A01A6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NETStandard", ".NETStandard", "{9FA53B16-CC1F-4402-B7C0-C41631FEA883}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01..NETStandard", "01..NETStandard", "{9FA53B16-CC1F-4402-B7C0-C41631FEA883}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AsyncAwait", "AsyncAwait", "{2831EDDA-A4CB-4B98-AD03-98D260DFF529}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.AsyncAwait", "02.AsyncAwait", "{2831EDDA-A4CB-4B98-AD03-98D260DFF529}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppAsyncAwait", "ConsoleAppAsyncAwait\ConsoleAppAsyncAwait.csproj", "{5995C932-3230-44D9-BAF3-2F6D27DFB879}"
 EndProject
@@ -23,11 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationCancellationT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppTaskWhenAll", "ConsoleAppTaskWhenAll\ConsoleAppTaskWhenAll.csproj", "{A69936B4-898B-45BB-8CB1-B1D4AA632AC9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Linq", "Linq", "{BC02496D-2BC9-4134-B475-EDF21EA5A3BF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Linq", "03.Linq", "{BC02496D-2BC9-4134-B475-EDF21EA5A3BF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppLinq", "ConsoleAppLinq\ConsoleAppLinq.csproj", "{046B36C1-C976-40DD-B493-73F0A963F67D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DepencyInjection", "DepencyInjection", "{A3DB183D-3F39-4944-BE4C-E644D70657F0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.DepencyInjection", "04.DepencyInjection", "{A3DB183D-3F39-4944-BE4C-E644D70657F0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppDependencyInjection", "ConsoleAppDependencyInjection\ConsoleAppDependencyInjection.csproj", "{89DEF10C-8D4C-407F-9BA4-CB01DED59E26}"
 EndProject
@@ -41,7 +41,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogServices", "LogServices\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailServices", "MailServices\MailServices.csproj", "{802FB2DB-B7C7-4FDA-8413-857949C51648}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{B7B84AFF-5A11-4AF5-93BD-618AECF16F9C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.Configuration", "05.Configuration", "{B7B84AFF-5A11-4AF5-93BD-618AECF16F9C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadJsonConfig", "ReadJsonConfig\ReadJsonConfig.csproj", "{B24D1482-B275-417A-9F23-E041B1A88C2F}"
 EndProject
@@ -51,9 +51,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadCommandLineConfig", "Re
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadWebConfig", "ReadWebConfig\ReadWebConfig.csproj", "{AAA6354A-5530-43FD-8979-D4FC7F17CCB8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logging", "Logging", "{3A7F341C-F8D3-4450-9152-4C20FB22C26C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.Logging", "06.Logging", "{3A7F341C-F8D3-4450-9152-4C20FB22C26C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleLogging", "ConsoleLogging\ConsoleLogging.csproj", "{91A1DFB0-6FF7-45F2-BD0A-5CD025B8A5DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleLogging", "ConsoleLogging\ConsoleLogging.csproj", "{91A1DFB0-6FF7-45F2-BD0A-5CD025B8A5DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

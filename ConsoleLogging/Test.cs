@@ -21,7 +21,7 @@ namespace ConsoleLogging
             //使用者无需关心日志输出的具体设置，只需要使用即可
             _logger.LogDebug("Start");
             _logger.LogDebug("Query");
-            _logger.LogWarning("Retry");
+            _logger.LogWarning("Warning");
             //模拟记录异常
            try
            {
@@ -32,6 +32,9 @@ namespace ConsoleLogging
            {
                _logger.LogError(e, "Read file failed!");
            }
+
+            //Serilog，要记录的结构化数据通过占位符来输
+            _logger.LogWarning("新增用户{@person}", new { Id = 3, Name = "zack" });
         }
     }
 }

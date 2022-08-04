@@ -1,0 +1,71 @@
+2022/08/04 16:04:53.836|DEBUG|ConsoleLogging.Test|Start 
+2022/08/04 16:04:53.885|DEBUG|ConsoleLogging.Test|Query 
+2022/08/04 16:04:53.885|WARN|ConsoleLogging.Test|Warning 
+2022/08/04 16:04:53.930|ERROR|ConsoleLogging.Test|Read file failed! System.IO.DirectoryNotFoundException: Could not find a part of the path 'A:\1.txt'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at ConsoleLogging.Test.TestDebug() in E:\CSharp\repos\YangZhongkeDotNet\ConsoleLogging\Test.cs:line 28
+2022/08/04 16:05:28.318|DEBUG|ConsoleLogging.Test|Start 
+2022/08/04 16:05:28.349|DEBUG|ConsoleLogging.Test|Query 
+2022/08/04 16:05:28.349|WARN|ConsoleLogging.Test|Warning 
+2022/08/04 16:05:28.393|ERROR|ConsoleLogging.Test|Read file failed! System.IO.DirectoryNotFoundException: Could not find a part of the path 'A:\1.txt'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at ConsoleLogging.Test.TestDebug() in E:\CSharp\repos\YangZhongkeDotNet\ConsoleLogging\Test.cs:line 28
+2022/08/04 16:05:44.997|DEBUG|ConsoleLogging.Test|Start 
+2022/08/04 16:05:45.029|DEBUG|ConsoleLogging.Test|Query 
+2022/08/04 16:05:45.029|WARN|ConsoleLogging.Test|Warning 
+2022/08/04 16:05:45.075|ERROR|ConsoleLogging.Test|Read file failed! System.IO.DirectoryNotFoundException: Could not find a part of the path 'A:\1.txt'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at ConsoleLogging.Test.TestDebug() in E:\CSharp\repos\YangZhongkeDotNet\ConsoleLogging\Test.cs:line 28
+2022/08/04 16:05:45.081|DEBUG|SystemServices.Test2|StartTest2 
+2022/08/04 16:05:45.081|DEBUG|SystemServices.Test2|QueryTest2 
+2022/08/04 16:06:25.669|DEBUG|ConsoleLogging.Test|Start 
+2022/08/04 16:06:25.709|DEBUG|ConsoleLogging.Test|Query 
+2022/08/04 16:06:25.709|WARN|ConsoleLogging.Test|Warning 
+2022/08/04 16:06:25.729|ERROR|ConsoleLogging.Test|Read file failed! System.IO.DirectoryNotFoundException: Could not find a part of the path 'A:\1.txt'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at ConsoleLogging.Test.TestDebug() in E:\CSharp\repos\YangZhongkeDotNet\ConsoleLogging\Test.cs:line 28
+2022/08/04 16:06:25.762|DEBUG|SystemServices.Test2|StartTest2 
+2022/08/04 16:06:25.762|DEBUG|SystemServices.Test2|QueryTest2 
+2022/08/04 16:06:48.308|DEBUG|ConsoleLogging.Test|Start 
+2022/08/04 16:06:48.341|DEBUG|ConsoleLogging.Test|Query 
+2022/08/04 16:06:48.341|WARN|ConsoleLogging.Test|Warning 
+2022/08/04 16:06:48.369|ERROR|ConsoleLogging.Test|Read file failed! System.IO.DirectoryNotFoundException: Could not find a part of the path 'A:\1.txt'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at ConsoleLogging.Test.TestDebug() in E:\CSharp\repos\YangZhongkeDotNet\ConsoleLogging\Test.cs:line 28
+2022/08/04 16:06:48.406|DEBUG|SystemServices.Test2|StartTest2 
+2022/08/04 16:06:48.406|DEBUG|SystemServices.Test2|QueryTest2 
