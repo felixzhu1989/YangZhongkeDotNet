@@ -1,4 +1,5 @@
 ﻿using ConsoleLogging;
+using Exceptionless;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using NLog.Extensions.Logging;
@@ -6,6 +7,7 @@ using Serilog;
 using Serilog.Formatting.Json;
 using SystemServices;
 
+ExceptionlessClient.Default.Startup("esUxvEgGWxnMqWJ8qIPTqxLSBjASmvnPyjDyIYfS");
 ServiceCollection service=new ServiceCollection();
 //如何输出日志，由框架配置
 service.AddLogging(logBuilder =>
@@ -20,6 +22,7 @@ service.AddLogging(logBuilder =>
         .MinimumLevel.Debug()
         .Enrich.FromLogContext()
         .WriteTo.Console(new JsonFormatter())
+        .WriteTo.Exceptionless()
         .CreateLogger();
     logBuilder.AddSerilog();
 });

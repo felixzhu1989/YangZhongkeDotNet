@@ -27,3 +27,7 @@ E:\CSharp\repos\YangZhongkeDotNet\ConsoleLogging\bin\Debug\net6.0\Serilog.Settin
 E:\CSharp\repos\YangZhongkeDotNet\ConsoleLogging\bin\Debug\net6.0\Serilog.Sinks.Console.dll
 E:\CSharp\repos\YangZhongkeDotNet\ConsoleLogging\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
 E:\CSharp\repos\YangZhongkeDotNet\ConsoleLogging\bin\Debug\net6.0\Serilog.Sinks.File.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleLogging\bin\Debug\net6.0\Exceptionless.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleLogging\bin\Debug\net6.0\Microsoft.Extensions.PlatformAbstractions.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleLogging\bin\Debug\net6.0\Serilog.Sinks.Exceptionless.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleLogging\bin\Debug\net6.0\System.Reflection.Metadata.dll

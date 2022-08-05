@@ -13,4 +13,7 @@
     <SourceRoot Include="C:\Users\felix.zhu\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
   </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgExceptionless Condition=" '$(PkgExceptionless)' == '' ">C:\Users\felix.zhu\.nuget\packages\exceptionless\4.8.0</PkgExceptionless>
+  </PropertyGroup>
 </Project>

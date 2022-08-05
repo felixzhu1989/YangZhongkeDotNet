@@ -43,6 +43,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Exceptionless": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -62,6 +66,10 @@
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[6.0.1, )"
+            },
+            "Serilog.Sinks.Exceptionless": {
+              "target": "Package",
+              "version": "[3.1.5, )"
             }
           },
           "imports": [
