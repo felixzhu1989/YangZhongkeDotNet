@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace ConsoleEFCore
 {
@@ -11,11 +7,17 @@ namespace ConsoleEFCore
     {
         public DbSet<Book> Books { get; set; }
         public DbSet<Person> Persons { get; set; }
+
+        private static readonly ILoggerFactory MyLoggerFactory = LoggerFactory.Create(builder =>
+        {
+            builder.AddConsole();
+        });
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             
             var connStr = @"Server=PDMSERVER\SQLEXPRESS; Database=EFCoreTestDB; User Id = sa; Password=Epdm2018;TrustServerCertificate=true";
             optionsBuilder.UseSqlServer(connStr);
+            optionsBuilder.UseLoggerFactory(MyLoggerFactory);
             base.OnConfiguring(optionsBuilder);
         }
 

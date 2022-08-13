@@ -57,6 +57,14 @@
               "target": "Package",
               "version": "[6.0.8, )"
             },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Zack.EFCore.Batch": {
               "target": "Package",
               "version": "[1.6.2, )"

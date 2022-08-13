@@ -1,5 +1,5 @@
 ﻿using ConsoleEFCore;
-using Microsoft.EntityFrameworkCore;
+
 
 await using TestDbContext context = new TestDbContext();
 
@@ -23,13 +23,13 @@ await context.SaveChangesAsync();
 */
 
 //查询数据
-/*
+
 var books = context.Books.Where(b => b.Price > 2);
 foreach (var book in books)
 {
     Console.WriteLine(book.Title);
 }
-*/
+
 /*
 var groups = context.Books.GroupBy(b => b.AuthorName).Select(g => new {AuthorName = g.Key,BooksCount=g.Count(),MaxPrice=g.Max(b=>b.Price)});
 foreach (var g in groups)
@@ -57,5 +57,7 @@ foreach (var book in books)
 await context.BatchUpdate<Book>()
     .Set(b => b.Price, b => b.Price + 1)
     .Where(b => b.Price > 1).ExecuteAsync();
-*/
 await context.SaveChangesAsync();
+*/
+
+

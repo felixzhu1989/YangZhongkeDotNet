@@ -57,3 +57,8 @@ E:\CSharp\repos\YangZhongkeDotNet\ConsoleEFCore\obj\Debug\net6.0\ConsoleEFCore.p
 E:\CSharp\repos\YangZhongkeDotNet\ConsoleEFCore\obj\Debug\net6.0\ConsoleEFCore.genruntimeconfig.cache
 E:\CSharp\repos\YangZhongkeDotNet\ConsoleEFCore\obj\Debug\net6.0\ref\ConsoleEFCore.dll
 E:\CSharp\repos\YangZhongkeDotNet\ConsoleEFCore\bin\Debug\net6.0\Zack.EFCore.Batch.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleEFCore\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleEFCore\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleEFCore\bin\Debug\net6.0\Microsoft.Extensions.Logging.Configuration.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleEFCore\bin\Debug\net6.0\Microsoft.Extensions.Logging.Console.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleEFCore\bin\Debug\net6.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
