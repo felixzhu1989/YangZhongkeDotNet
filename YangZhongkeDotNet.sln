@@ -59,7 +59,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07.EFCore", "07.EFCore", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleEFCore", "ConsoleEFCore\ConsoleEFCore.csproj", "{F3B0C1A7-4A2B-47AD-889C-CA4ED697520F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScafflodCompass", "ScafflodCompass\ScafflodCompass.csproj", "{0629D35D-3210-4000-93A5-1F5594DBDCFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScafflodCompass", "ScafflodCompass\ScafflodCompass.csproj", "{0629D35D-3210-4000-93A5-1F5594DBDCFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleRelation", "ConsoleRelation\ConsoleRelation.csproj", "{15D2DB36-FA6A-421C-AE63-94E968B80904}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -155,6 +157,10 @@ Global
 		{0629D35D-3210-4000-93A5-1F5594DBDCFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0629D35D-3210-4000-93A5-1F5594DBDCFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0629D35D-3210-4000-93A5-1F5594DBDCFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15D2DB36-FA6A-421C-AE63-94E968B80904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15D2DB36-FA6A-421C-AE63-94E968B80904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15D2DB36-FA6A-421C-AE63-94E968B80904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15D2DB36-FA6A-421C-AE63-94E968B80904}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -182,6 +188,7 @@ Global
 		{91A1DFB0-6FF7-45F2-BD0A-5CD025B8A5DD} = {3A7F341C-F8D3-4450-9152-4C20FB22C26C}
 		{F3B0C1A7-4A2B-47AD-889C-CA4ED697520F} = {75BE9CD7-CC12-4AA0-BC86-D98D3DE53265}
 		{0629D35D-3210-4000-93A5-1F5594DBDCFE} = {75BE9CD7-CC12-4AA0-BC86-D98D3DE53265}
+		{15D2DB36-FA6A-421C-AE63-94E968B80904} = {75BE9CD7-CC12-4AA0-BC86-D98D3DE53265}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {42033C1D-7E2F-4ABB-B48E-1E0C242DF569}

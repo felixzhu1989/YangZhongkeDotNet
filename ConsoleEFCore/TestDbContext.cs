@@ -17,7 +17,16 @@ namespace ConsoleEFCore
             
             var connStr = @"Server=PDMSERVER\SQLEXPRESS; Database=EFCoreTestDB; User Id = sa; Password=Epdm2018;TrustServerCertificate=true";
             optionsBuilder.UseSqlServer(connStr);
-            optionsBuilder.UseLoggerFactory(MyLoggerFactory);
+            //标准日志
+            //optionsBuilder.UseLoggerFactory(MyLoggerFactory);
+            //简单日志
+            //optionsBuilder.LogTo(msg =>
+            //{
+            //    if (!msg.Contains("CommandExecuting")) return; //加一个简单的过滤，只需要SQL语句
+            //    Console.WriteLine(msg);
+            //});
+
+
             base.OnConfiguring(optionsBuilder);
         }
 

@@ -1,4 +1,5 @@
 ﻿using ConsoleEFCore;
+using Microsoft.EntityFrameworkCore;
 
 
 await using TestDbContext context = new TestDbContext();
@@ -29,6 +30,8 @@ foreach (var book in books)
 {
     Console.WriteLine(book.Title);
 }
+var sqlStr= books.ToQueryString();
+Console.WriteLine(sqlStr);
 
 /*
 var groups = context.Books.GroupBy(b => b.AuthorName).Select(g => new {AuthorName = g.Key,BooksCount=g.Count(),MaxPrice=g.Max(b=>b.Price)});
