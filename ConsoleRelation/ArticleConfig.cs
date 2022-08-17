@@ -14,6 +14,7 @@ namespace ConsoleRelation
         {
             builder.Property(a => a.Title).IsRequired().IsUnicode().HasMaxLength(255);
             builder.Property(a => a.Content).IsRequired().IsUnicode();
+            //builder.HasMany<Comment>(a=>a.Comments).WithOne(c=>c.Article).HasForeignKey(c=>c.ArticleId).IsRequired();
         }
     }
 }

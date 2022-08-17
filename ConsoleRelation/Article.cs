@@ -13,5 +13,6 @@ namespace ConsoleRelation
         public string Content { get; set; }
         //导航属性
         public List<Comment> Comments { get; set; }=new List<Comment>();
+
     }
 }

@@ -12,5 +12,7 @@ namespace ConsoleRelation
         public string Message { get; set; }
         //导航属性
         public Article Article { get; set; }
+        //额外外键字段
+        public long ArticleId { get; set; }
     }
 }
