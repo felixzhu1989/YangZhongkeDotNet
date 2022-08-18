@@ -22,7 +22,41 @@ namespace ConsoleRelation.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("ConsoleRelation.Article", b =>
+            modelBuilder.Entity("ConsoleRelation.ManyMany.Student", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"), 1L, 1);
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Students");
+                });
+
+            modelBuilder.Entity("ConsoleRelation.ManyMany.Teacher", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"), 1L, 1);
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Teachers");
+                });
+
+            modelBuilder.Entity("ConsoleRelation.OneMany.Article", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -46,7 +80,7 @@ namespace ConsoleRelation.Migrations
                     b.ToTable("Articles");
                 });
 
-            modelBuilder.Entity("ConsoleRelation.Comment", b =>
+            modelBuilder.Entity("ConsoleRelation.OneMany.Comment", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -69,7 +103,7 @@ namespace ConsoleRelation.Migrations
                     b.ToTable("Comments");
                 });
 
-            modelBuilder.Entity("ConsoleRelation.Leave", b =>
+            modelBuilder.Entity("ConsoleRelation.OneMany.Leave", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -96,7 +130,7 @@ namespace ConsoleRelation.Migrations
                     b.ToTable("Leaves");
                 });
 
-            modelBuilder.Entity("ConsoleRelation.User", b =>
+            modelBuilder.Entity("ConsoleRelation.OneMany.User", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -113,9 +147,94 @@ namespace ConsoleRelation.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("ConsoleRelation.Comment", b =>
+            modelBuilder.Entity("ConsoleRelation.OneOne.Delivery", b =>
                 {
-                    b.HasOne("ConsoleRelation.Article", "Article")
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"), 1L, 1);
+
+                    b.Property<string>("CompanyName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Number")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("OrderId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("OrderId")
+                        .IsUnique();
+
+                    b.ToTable("Deliveries");
+                });
+
+            modelBuilder.Entity("ConsoleRelation.OneOne.Order", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"), 1L, 1);
+
+                    b.Property<string>("Address")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Orders");
+                });
+
+            modelBuilder.Entity("ConsoleRelation.SelfOneMany.OrgUnit", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"), 1L, 1);
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<long?>("ParentId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ParentId");
+
+                    b.ToTable("OrgUnits");
+                });
+
+            modelBuilder.Entity("StudentTeacher", b =>
+                {
+                    b.Property<long>("StudentsId")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("TeachersId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("StudentsId", "TeachersId");
+
+                    b.HasIndex("TeachersId");
+
+                    b.ToTable("Students_Teachers", (string)null);
+                });
+
+            modelBuilder.Entity("ConsoleRelation.OneMany.Comment", b =>
+                {
+                    b.HasOne("ConsoleRelation.OneMany.Article", "Article")
                         .WithMany("Comments")
                         .HasForeignKey("ArticleId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -124,13 +243,13 @@ namespace ConsoleRelation.Migrations
                     b.Navigation("Article");
                 });
 
-            modelBuilder.Entity("ConsoleRelation.Leave", b =>
+            modelBuilder.Entity("ConsoleRelation.OneMany.Leave", b =>
                 {
-                    b.HasOne("ConsoleRelation.User", "Approver")
+                    b.HasOne("ConsoleRelation.OneMany.User", "Approver")
                         .WithMany()
                         .HasForeignKey("ApproverId");
 
-                    b.HasOne("ConsoleRelation.User", "Requester")
+                    b.HasOne("ConsoleRelation.OneMany.User", "Requester")
                         .WithMany()
                         .HasForeignKey("RequesterId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -141,9 +260,54 @@ namespace ConsoleRelation.Migrations
                     b.Navigation("Requester");
                 });
 
-            modelBuilder.Entity("ConsoleRelation.Article", b =>
+            modelBuilder.Entity("ConsoleRelation.OneOne.Delivery", b =>
+                {
+                    b.HasOne("ConsoleRelation.OneOne.Order", "Order")
+                        .WithOne("Delivery")
+                        .HasForeignKey("ConsoleRelation.OneOne.Delivery", "OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Order");
+                });
+
+            modelBuilder.Entity("ConsoleRelation.SelfOneMany.OrgUnit", b =>
+                {
+                    b.HasOne("ConsoleRelation.SelfOneMany.OrgUnit", "Parent")
+                        .WithMany("Children")
+                        .HasForeignKey("ParentId");
+
+                    b.Navigation("Parent");
+                });
+
+            modelBuilder.Entity("StudentTeacher", b =>
+                {
+                    b.HasOne("ConsoleRelation.ManyMany.Student", null)
+                        .WithMany()
+                        .HasForeignKey("StudentsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ConsoleRelation.ManyMany.Teacher", null)
+                        .WithMany()
+                        .HasForeignKey("TeachersId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("ConsoleRelation.OneMany.Article", b =>
                 {
                     b.Navigation("Comments");
+                });
+
+            modelBuilder.Entity("ConsoleRelation.OneOne.Order", b =>
+                {
+                    b.Navigation("Delivery");
+                });
+
+            modelBuilder.Entity("ConsoleRelation.SelfOneMany.OrgUnit", b =>
+                {
+                    b.Navigation("Children");
                 });
 #pragma warning restore 612, 618
         }

@@ -4,6 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Channels;
 using System.Threading.Tasks;
+using ConsoleRelation.ManyMany;
+using ConsoleRelation.OneMany;
+using ConsoleRelation.OneOne;
+using ConsoleRelation.SelfOneMany;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
@@ -15,11 +19,16 @@ namespace ConsoleRelation
         public DbSet<Comment> Comments { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Leave> Leaves { get; set; }
+        public DbSet<OrgUnit> OrgUnits { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<Delivery> Deliveries { get; set; }
+        public DbSet<Student> Students { get; set; }
+        public DbSet<Teacher> Teachers { get; set; }
         
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
 
-            var connStr = @"Server=PDMSERVER\SQLEXPRESS; Database=EFCoreRelationDB; User Id = sa; Password=Epdm2018;TrustServerCertificate=true";
+            var connStr = @"Server=PDMSERVER\SQLEXPRESS; Database=EFCoreRelationDB; User Id = sa; Password=Epdm2018;TrustServerCertificate=true;MultipleActiveResultSets = true";
             optionsBuilder.UseSqlServer(connStr);
             optionsBuilder.LogTo(Console.WriteLine);
             base.OnConfiguring(optionsBuilder);
