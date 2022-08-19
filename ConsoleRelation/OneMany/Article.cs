@@ -11,8 +11,8 @@ namespace ConsoleRelation.OneMany
         public long Id { get; set; }
         public string Title { get; set; }
         public string Content { get; set; }
+        public double Price { get; set; }
         //导航属性
         public List<Comment> Comments { get; set; } = new List<Comment>();
-
     }
 }

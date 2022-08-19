@@ -190,6 +190,140 @@ foreach (var c in items)
 }*/
 #endregion
 
+#region 客户端评估
+/*//默认服务器端评估
+var preview= context.Comments.Select(c => new {c.Id, Pre = $"{c.Message.Substring(0, 2)}..."});
+foreach (var c in preview)
+{
+    Console.WriteLine($"Id:{c.Id},Preview:{c.Pre}");
+}*/
+/*//客户端评估，将Comments强制转换成IEnumerable而不是默认的IQueryable
+var preview = ((IEnumerable<Comment>)context.Comments).Select(c => new { c.Id, Pre = $"{c.Message.Substring(0, 2)}..." });
+foreach (var c in preview)
+{
+    Console.WriteLine($"Id:{c.Id},Preview:{c.Pre}");
+}*/
 
+/*//复杂数据过滤规则，只能使用IEnumerable的Where方法才能传递本地方法
+var cmts = ((IEnumerable<Comment>)context.Comments).Where(c => IsOk(c.Message));
+foreach (var c in cmts)
+{
+    Console.WriteLine($"Id:{c.Id},Preview:{c.Message}");
+}
 
+bool IsOk(string s)
+{
+    //过滤规则，数据以"a"开头并且长度>5，或者不以"a"开头并且长度<3
+    if (s.StartsWith("a")) return s.Length > 5;
+    else return s.Length<3;
+}*/
+
+#endregion
+
+#region IQueryable的延迟执行
+/*Console.WriteLine("-----准备查询-----");
+var articles=context.Articles;//构建了一个可以执行的查询，但是没有真的查询
+Console.WriteLine("-----准备循环-----");
+foreach (var article in articles)//遍历的时候才开始查询
+{
+    Console.WriteLine(article.Title);
+}
+Console.WriteLine("-----循环结束-----");*/
+
+/*//分布构建IQueryable，生成了袋子查询的SQL，效率低
+var arts = context.Articles.Where(a => a.Id > 1);
+var arts1 = arts.Skip(2);
+var arts2 = arts1.Take(3);
+var arts3 = arts2.Where(a=>a.Title.Contains("微软"));
+arts3.ToArray();*/
+/*var arts = context.Articles.Where(a => a.Id > 1 && a.Title.Contains("微软")).Skip(2).Take(3);
+arts.ToArray();*/
+
+/*//调用动态构建IQueryable方法
+QueryArticles("微软", false, false, 30);
+//根据条件，动态构建IQueryable
+void QueryArticles(string searchWords, bool searchAll, bool orderByPrice, double upperPrice)
+{
+    var arts = context.Articles.Where(a => a.Price<=upperPrice);
+    //在Title和Content中都找
+    if (searchAll) arts= arts.Where(a => a.Title.Contains(searchWords) || a.Content.Contains(searchWords));
+    else arts= arts.Where(a => a.Title.Contains(searchWords));//只找Title
+    //按照Price排序
+    if (orderByPrice) arts= arts.OrderBy(a => a.Price);
+    foreach (var article in arts)
+    {
+        Console.WriteLine(article.Title);
+    }
+}*/
+#endregion
+
+#region IQueryable的复用
+/*var arts = context.Articles.Where(a => a.Price <= 80);
+Console.WriteLine(arts.Count());
+Console.WriteLine(arts.Max(a=>a.Price));
+var arts2 = arts.Where(a => a.Title.Contains("微软"));
+arts2.ToList();*/
+#endregion
+
+#region 分页查询
+/*//取第一页，每页3条数据
+PrintPage(1, 3);
+//取第二页，每页3条数据
+PrintPage(2, 3);
+
+void PrintPage(int pageIndex, int pageSize)
+{
+    var arts = context.Articles.Where(a => !a.Title.Contains("felix"));//查询条件
+    var items = arts.Skip((pageIndex - 1)*pageSize).Take(pageSize);//复用IQueryable
+    foreach (var article in items)
+    {
+        Console.WriteLine(article.Title);
+    }
+    long count = arts.LongCount();//总文章数,复用IQueryable
+    long pageCount = (long)Math.Ceiling(count * 1.0 / pageSize);//总页数取天花板
+    Console.WriteLine($"总页数：{pageCount}");
+}*/
+#endregion
+
+#region IQueryable的底层
+/*//DataReader，占用数据库连接
+foreach (var a in context.Articles)
+{
+    Console.WriteLine(a.Title);
+    Thread.Sleep(100);//每遍历一条记录就停一下
+}*/
+
+/*//一次性加载到内存，程序加载时卡顿
+foreach (var a in context.Articles.ToList())
+{
+    Console.WriteLine(a.Title);
+    Thread.Sleep(100);//每遍历一条记录就停一下
+}
+*/
+
+/*//调用方法里销毁DbContext时，必须要ToList或ToArray
+var items = QueryNotFelix();
+foreach (var article in items)
+{
+    Console.WriteLine(article.Title);
+}
+
+static IQueryable<Article> QueryNotFelix()
+{
+    using TestDbContext context2=new TestDbContext();
+    return context2.Articles.Where(a=>!a.Title.Contains("felix"));
+}*/
+
+/*//嵌套循环时，DataReader被占用（连接字符串中的MultipleActiveResultSets = true删掉）
+foreach (var a in context.Articles)
+{
+    Console.WriteLine(a.Title);
+    foreach (var c in context.Comments)
+    {
+        Console.WriteLine(c.Message);
+    }
+}
+*/
+
+#endregion
 
