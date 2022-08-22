@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "aRzwt0AeadtbXgN85fMC82abFROxrvLLvg+bzbNzJ0v9Nlza7n6udC+NdZM1L2hhCmwhix7yfsudLUcicWCoSw==",
+  "dgSpecHash": "WVomtqoAysPAOJ69sa0RVzaro0ciwp89xoLkdV0DiBUrEIThls1PVxfSo80ZAopS8kKtXHNcVLSqazPHuxWtrg==",
   "success": true,
   "projectFilePath": "E:\\CSharp\\repos\\YangZhongkeDotNet\\ConsoleRelation\\ConsoleRelation.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\felix.zhu\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\felix.zhu\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\felix.zhu\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

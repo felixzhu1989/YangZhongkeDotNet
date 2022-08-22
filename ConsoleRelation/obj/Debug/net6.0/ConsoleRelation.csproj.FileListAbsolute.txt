@@ -56,3 +56,4 @@ E:\CSharp\repos\YangZhongkeDotNet\ConsoleRelation\obj\Debug\net6.0\refint\Consol
 E:\CSharp\repos\YangZhongkeDotNet\ConsoleRelation\obj\Debug\net6.0\ConsoleRelation.pdb
 E:\CSharp\repos\YangZhongkeDotNet\ConsoleRelation\obj\Debug\net6.0\ConsoleRelation.genruntimeconfig.cache
 E:\CSharp\repos\YangZhongkeDotNet\ConsoleRelation\obj\Debug\net6.0\ref\ConsoleRelation.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleRelation\bin\Debug\net6.0\Dapper.dll

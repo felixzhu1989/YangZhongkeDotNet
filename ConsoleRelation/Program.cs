@@ -1,9 +1,12 @@
-﻿using ConsoleRelation;
+﻿using System.Data;
+using ConsoleRelation;
 using Microsoft.EntityFrameworkCore;
 using System.Xml.Linq;
 using ConsoleRelation.ManyMany;
 using ConsoleRelation.OneMany;
 using ConsoleRelation.OneOne;
+using System.Diagnostics;
+using Dapper;
 
 await using TestDbContext context = new TestDbContext();
 
@@ -327,3 +330,138 @@ foreach (var a in context.Articles)
 
 #endregion
 
+#region 执行原生SQL：非查询语句
+/*//@$一起使用，可以让字符串换行显示
+string content = "内容待定";
+await context.Database.ExecuteSqlInterpolatedAsync(
+    @$"insert into Articles(Title,Content,Price)
+    select Title, {content}, Price from Articles where Id<5");*/
+/*//观察FormattableString
+string content = "内容待定";
+FormattableString sql= @$"insert into Articles(Title,Content,Price)
+    select Title, {content}, Price from Articles where Id<5";
+Console.WriteLine($"Format:{sql}");
+Console.WriteLine($"Parameters:{string.Join(",",sql.GetArguments())}");*/
+
+//context.Database.ExecuteSqlRawAsync()
+#endregion
+
+#region 执行原生SQL：实体查询
+
+/*string titlePattern = "%微软%";
+var arts = context.Articles.FromSqlInterpolated(
+    $@"select * from Articles where Title like {titlePattern} order by newid()");
+foreach (var article in arts)
+{
+    Console.WriteLine(article.Title);
+}*/
+
+/*//对IQureyable进一步处理
+string titlePattern = "%微软%";
+var arts = context.Articles.FromSqlInterpolated(
+    $@"select * from Articles where Title like {titlePattern}");
+foreach (var article in arts.OrderBy(a=>Guid.NewGuid()).Skip(5).Take(5))
+{
+    Console.WriteLine(article.Title);
+}
+*/
+#endregion
+
+#region 执行原生SQL：任意SQL
+/*//拿到context底层的Connection对象
+var conn = context.Database.GetDbConnection();
+if (conn.State != ConnectionState.Open) await conn.OpenAsync();
+await using var cmd=conn.CreateCommand();
+cmd.CommandText = "select Price,count(*) Count from Articles group by Price";
+await using var reader =await cmd.ExecuteReaderAsync();
+while (await reader.ReadAsync())
+{
+    var price = reader.GetDouble(0);
+    var count = reader.GetInt32(1);
+    Console.WriteLine($"Price:{price},Count:{count}");
+}*/
+
+/*//使用Dapper执行原生SQL语句
+var conn = context.Database.GetDbConnection();
+var items = conn.Query<GroupByPrice>("select Price,count(*) Count from Articles group by Price");
+foreach (var item in items)
+{
+    Console.WriteLine($"Price:{item.Price},Count:{item.Count}");
+}*/
+#endregion
+
+#region 状态跟踪
+/*//查看跟踪状态和跟踪信息
+//修改一条，删除一条，一条不动
+var items = await context.Articles.Take(3).ToArrayAsync();
+var a1 = items[0];
+var a2 = items[1];
+var a3 = items[2];
+a1.Price += 1;
+context.Articles.Remove(a2);
+//其中一个Add，一个不动
+var a4 = new Article { Title = "a4", Content = "a4 content" ,Price = 40};
+var a5 = new Article { Title = "a5", Content = "a5 content",Price = 50};
+context.Articles.Add(a4);
+
+var e1 = context.Entry(a1);
+var e2 = context.Entry(a2);
+var e3 = context.Entry(a3);
+var e4 = context.Entry(a4);
+var e5 = context.Entry(a5);
+Console.WriteLine(e1.State);
+Console.WriteLine(e1.DebugView.LongView);//查看变化信息
+Console.WriteLine(e2.State);
+Console.WriteLine(e3.State);
+Console.WriteLine(e4.State);
+Console.WriteLine(e5.State);*/
+
+/*//AsNoTracking，不对实体进行跟踪
+var items = await context.Articles.AsNoTracking().Take(3).ToArrayAsync();
+foreach (var article in items)
+{
+    Console.WriteLine(article.Title);
+}
+var a1 = items[0];
+Console.WriteLine(context.Entry(a1).State);//Detached*/
+
+/*//先查询，然后更新
+var a =await context.Articles.Where(a => a.Id == 9).SingleAsync();
+a.Price = 99;
+await context.SaveChangesAsync();*/
+
+/*//剑走偏锋，直接修改
+Article a = new Article { Id = 9, Price = 66 };
+context.Entry(a).Property("Price").IsModified=true;
+Console.WriteLine(context.Entry(a).DebugView.LongView);
+context.SaveChanges();*/
+
+/*//直接删除一条数据
+Article a = new Article { Id=15};
+context.Entry(a).State = EntityState.Deleted;
+await context.SaveChangesAsync();*/
+
+#endregion
+
+#region 全局查询筛选器
+/*//将id为2的数据软删除，将IsDeleted属性设置为true
+var a = await context.Articles.SingleAsync(a => a.Id == 2);
+a.IsDeleted = true; //实质上是更新而不是真的删除
+await context.SaveChangesAsync();*/
+
+
+/*foreach (var article in context.Articles.Take(3))
+{
+    Console.WriteLine($"ID:{article.Id},Title:{article.Title}");
+}*/
+
+/*//暂时忽略全局查询过滤器,比如做一个类似回收站的功能
+foreach (var article in context.Articles.IgnoreQueryFilters().Where(a => a.IsDeleted==true))
+{
+    Console.WriteLine($"ID:{article.Id},Title:{article.Title}");
+}*/
+
+
+
+
+#endregion

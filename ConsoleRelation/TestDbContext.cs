@@ -32,7 +32,7 @@ namespace ConsoleRelation
             /*var connStr = @"Server=PDMSERVER\SQLEXPRESS; Database=EFCoreRelationDB; User Id = sa; Password=Epdm2018;TrustServerCertificate=true";*/
 
             optionsBuilder.UseSqlServer(connStr);
-            //optionsBuilder.LogTo(Console.WriteLine);
+            optionsBuilder.LogTo(Console.WriteLine);
             base.OnConfiguring(optionsBuilder);
         }
 
