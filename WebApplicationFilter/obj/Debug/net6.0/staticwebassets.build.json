@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tvmjp+DHPm1lK3aMoXCNDo2rf2eJdh2f+XQ+zLEWumo=",
+  "Source": "WebApplicationFilter",
+  "BasePath": "_content/WebApplicationFilter",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

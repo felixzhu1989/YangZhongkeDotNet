@@ -1,0 +1,14 @@
+E:\CSharp\repos\YangZhongkeDotNet\EFCoreBooks\bin\Debug\net6.0\EFCoreBooks.deps.json
+E:\CSharp\repos\YangZhongkeDotNet\EFCoreBooks\bin\Debug\net6.0\EFCoreBooks.runtimeconfig.json
+E:\CSharp\repos\YangZhongkeDotNet\EFCoreBooks\bin\Debug\net6.0\EFCoreBooks.dll
+E:\CSharp\repos\YangZhongkeDotNet\EFCoreBooks\bin\Debug\net6.0\EFCoreBooks.pdb
+E:\CSharp\repos\YangZhongkeDotNet\EFCoreBooks\obj\Debug\net6.0\EFCoreBooks.csproj.AssemblyReference.cache
+E:\CSharp\repos\YangZhongkeDotNet\EFCoreBooks\obj\Debug\net6.0\EFCoreBooks.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\YangZhongkeDotNet\EFCoreBooks\obj\Debug\net6.0\EFCoreBooks.AssemblyInfoInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\EFCoreBooks\obj\Debug\net6.0\EFCoreBooks.AssemblyInfo.cs
+E:\CSharp\repos\YangZhongkeDotNet\EFCoreBooks\obj\Debug\net6.0\EFCoreBooks.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\EFCoreBooks\obj\Debug\net6.0\EFCoreBooks.dll
+E:\CSharp\repos\YangZhongkeDotNet\EFCoreBooks\obj\Debug\net6.0\refint\EFCoreBooks.dll
+E:\CSharp\repos\YangZhongkeDotNet\EFCoreBooks\obj\Debug\net6.0\EFCoreBooks.pdb
+E:\CSharp\repos\YangZhongkeDotNet\EFCoreBooks\obj\Debug\net6.0\EFCoreBooks.genruntimeconfig.cache
+E:\CSharp\repos\YangZhongkeDotNet\EFCoreBooks\obj\Debug\net6.0\ref\EFCoreBooks.dll
