@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "1gcCZfqoIOnz/4OEJD+bW6le4QMBRDpmkGFPg7xql4k=",
+  "Source": "WebApplicationCustomMiddleware",
+  "BasePath": "_content/WebApplicationCustomMiddleware",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
