@@ -21,3 +21,4 @@ E:\CSharp\repos\YangZhongkeDotNet\WebApplicationCustomMiddleware\obj\Debug\net6.
 E:\CSharp\repos\YangZhongkeDotNet\WebApplicationCustomMiddleware\obj\Debug\net6.0\ref\WebApplicationCustomMiddleware.dll
 E:\CSharp\repos\YangZhongkeDotNet\WebApplicationCustomMiddleware\bin\Debug\net6.0\Dynamic.Json.dll
 E:\CSharp\repos\YangZhongkeDotNet\WebApplicationCustomMiddleware\obj\Debug\net6.0\WebApplicationCustomMiddleware.csproj.CopyComplete
+E:\CSharp\repos\YangZhongkeDotNet\WebApplicationCustomMiddleware\bin\Debug\net6.0\WebApplicationCustomMiddleware.staticwebassets.runtime.json

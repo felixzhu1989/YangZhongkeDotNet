@@ -1,10 +1,22 @@
+using System.Reflection;
 using System.Xml.Schema;
 using WebApplicationCustomMiddleware;
+using WebApplicationCustomMiddleware.MiniWebApi;
 
 var builder = WebApplication.CreateBuilder(args);
+var services = builder.Services;
+ActionLocator locator = new ActionLocator(services, Assembly.GetEntryAssembly()!);
+services.AddSingleton(locator);
+services.AddMemoryCache();
+//添加自定义过滤器
+ActionFilters.Filters.Add(new MyActionFilter());
 var app = builder.Build();
+//注册自定义中间件
+app.UseMiddleware<MyStaticFilesMiddleware>();
+app.UseMiddleware<MyWebAPIMiddleware>();
+app.UseMiddleware<NotFoundMiddleware>();
 
-app.MapGet("/", () => "Hello World!");
+/*app.MapGet("/", () => "Hello World!");
 app.MapGet("/felix", () => "felix!");
 
 app.Map("/test", async pipeBuilder =>
@@ -31,6 +43,6 @@ app.Map("/test", async pipeBuilder =>
         var obj = context.Items["BodyJson"];
         if (obj!=null) await context.Response.WriteAsync($"{obj}<br/>");
     });
-});
+});*/
 
 app.Run();

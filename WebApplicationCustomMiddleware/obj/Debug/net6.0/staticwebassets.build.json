@@ -1,11 +1,54 @@
 {
   "Version": 1,
-  "Hash": "1gcCZfqoIOnz/4OEJD+bW6le4QMBRDpmkGFPg7xql4k=",
+  "Hash": "x3BhiS+ejtHK8ruA43/kOm4OlmX0TWqi6hcKS1Vq388=",
   "Source": "WebApplicationCustomMiddleware",
   "BasePath": "_content/WebApplicationCustomMiddleware",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebApplicationCustomMiddleware\\wwwroot",
+      "Source": "WebApplicationCustomMiddleware",
+      "ContentRoot": "E:\\CSharp\\repos\\YangZhongkeDotNet\\WebApplicationCustomMiddleware\\wwwroot\\",
+      "BasePath": "_content/WebApplicationCustomMiddleware",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\CSharp\\repos\\YangZhongkeDotNet\\WebApplicationCustomMiddleware\\wwwroot\\index.html",
+      "SourceId": "WebApplicationCustomMiddleware",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CSharp\\repos\\YangZhongkeDotNet\\WebApplicationCustomMiddleware\\wwwroot\\",
+      "BasePath": "_content/WebApplicationCustomMiddleware",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "E:\\CSharp\\repos\\YangZhongkeDotNet\\WebApplicationCustomMiddleware\\wwwroot\\mvp.png",
+      "SourceId": "WebApplicationCustomMiddleware",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CSharp\\repos\\YangZhongkeDotNet\\WebApplicationCustomMiddleware\\wwwroot\\",
+      "BasePath": "_content/WebApplicationCustomMiddleware",
+      "RelativePath": "mvp.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\mvp.png"
+    }
+  ]
 }
