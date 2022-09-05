@@ -75,19 +75,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationMvc", "WebApp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationWebApi", "WebApplicationWebApi\WebApplicationWebApi.csproj", "{47548E8B-1F4D-42B2-B700-DF3FA8160D9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationConfig", "WebApplicationConfig\WebApplicationConfig.csproj", "{717D9787-E27E-4587-8F4B-FBBEAEE249C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationConfig", "WebApplicationConfig\WebApplicationConfig.csproj", "{717D9787-E27E-4587-8F4B-FBBEAEE249C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreBooks", "EFCoreBooks\EFCoreBooks.csproj", "{5EBFBB7C-B44F-4C2C-9E69-3BF6ED59753A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreBooks", "EFCoreBooks\EFCoreBooks.csproj", "{5EBFBB7C-B44F-4C2C-9E69-3BF6ED59753A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationFilter", "WebApplicationFilter\WebApplicationFilter.csproj", "{8BF92ECB-9788-491A-A777-66B0CE50C57F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationFilter", "WebApplicationFilter\WebApplicationFilter.csproj", "{8BF92ECB-9788-491A-A777-66B0CE50C57F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationCustomMiddleware", "WebApplicationCustomMiddleware\WebApplicationCustomMiddleware.csproj", "{B2360750-8BDC-4AC3-862A-F266A34CB9CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationCustomMiddleware", "WebApplicationCustomMiddleware\WebApplicationCustomMiddleware.csproj", "{B2360750-8BDC-4AC3-862A-F266A34CB9CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationMarkdown", "WebApplicationMarkdown\WebApplicationMarkdown.csproj", "{4BB222DD-8F35-464D-AC09-7C589F1D0908}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationMarkdown", "WebApplicationMarkdown\WebApplicationMarkdown.csproj", "{4BB222DD-8F35-464D-AC09-7C589F1D0908}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationIdentity", "WebApplicationIdentity\WebApplicationIdentity.csproj", "{02A7E7C1-8F6C-4EF1-8049-AFCCC081C01F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationIdentity", "WebApplicationIdentity\WebApplicationIdentity.csproj", "{02A7E7C1-8F6C-4EF1-8049-AFCCC081C01F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppGenerateJwt", "ConsoleAppGenerateJwt\ConsoleAppGenerateJwt.csproj", "{74AEF301-EA1C-4C7B-AB82-05092AA193E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppGenerateJwt", "ConsoleAppGenerateJwt\ConsoleAppGenerateJwt.csproj", "{74AEF301-EA1C-4C7B-AB82-05092AA193E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationJwt", "WebApplicationJwt\WebApplicationJwt.csproj", "{D3C2B6AD-5BB9-4A82-B59D-B91BD447FD03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationHostedService", "WebApplicationHostedService\WebApplicationHostedService.csproj", "{78CDD5BB-5C4A-4886-87D1-8A4179B80432}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -235,6 +239,14 @@ Global
 		{74AEF301-EA1C-4C7B-AB82-05092AA193E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74AEF301-EA1C-4C7B-AB82-05092AA193E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74AEF301-EA1C-4C7B-AB82-05092AA193E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3C2B6AD-5BB9-4A82-B59D-B91BD447FD03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3C2B6AD-5BB9-4A82-B59D-B91BD447FD03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3C2B6AD-5BB9-4A82-B59D-B91BD447FD03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3C2B6AD-5BB9-4A82-B59D-B91BD447FD03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78CDD5BB-5C4A-4886-87D1-8A4179B80432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78CDD5BB-5C4A-4886-87D1-8A4179B80432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78CDD5BB-5C4A-4886-87D1-8A4179B80432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78CDD5BB-5C4A-4886-87D1-8A4179B80432}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -275,6 +287,8 @@ Global
 		{4BB222DD-8F35-464D-AC09-7C589F1D0908} = {F6BA685D-7332-4306-BC41-7E4CFF172F85}
 		{02A7E7C1-8F6C-4EF1-8049-AFCCC081C01F} = {F6BA685D-7332-4306-BC41-7E4CFF172F85}
 		{74AEF301-EA1C-4C7B-AB82-05092AA193E6} = {F6BA685D-7332-4306-BC41-7E4CFF172F85}
+		{D3C2B6AD-5BB9-4A82-B59D-B91BD447FD03} = {F6BA685D-7332-4306-BC41-7E4CFF172F85}
+		{78CDD5BB-5C4A-4886-87D1-8A4179B80432} = {F6BA685D-7332-4306-BC41-7E4CFF172F85}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {42033C1D-7E2F-4ABB-B48E-1E0C242DF569}

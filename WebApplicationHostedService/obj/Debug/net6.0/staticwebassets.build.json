@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yOZzLk2Xqao4yNxvdxhjmXLOINKFaZTM8zYgsCKK+UM=",
+  "Source": "WebApplicationHostedService",
+  "BasePath": "_content/WebApplicationHostedService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
