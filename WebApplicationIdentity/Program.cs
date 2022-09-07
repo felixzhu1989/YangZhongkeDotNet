@@ -1,3 +1,6 @@
+using System.Reflection;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using WebApplicationIdentity;
@@ -44,9 +47,8 @@ idBuilder.AddEntityFrameworkStores<MyDbContext>().AddDefaultTokenProviders()
     .AddRoleManager<RoleManager<MyRole>>()
     .AddUserManager<UserManager<MyUser>>();
 
-
-
-
+//≈‰÷√FluentValidation
+builder.Services.AddFluentValidationAutoValidation().AddValidatorsFromAssembly(Assembly.GetEntryAssembly());
 
 var app = builder.Build();
 

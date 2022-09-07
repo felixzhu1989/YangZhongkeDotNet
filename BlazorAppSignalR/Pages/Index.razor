@@ -1,0 +1,132 @@
+﻿@page "/"
+@using Microsoft.AspNetCore.SignalR.Client
+@using Microsoft.AspNetCore.Http.Connections
+@implements IAsyncDisposable
+@inject IHttpClientFactory ClientFactory
+
+<PageTitle>Index</PageTitle>
+
+<div class="input-group mb-2">
+    <span class="input-group-text">User:</span>
+    <div class="col-sm-1">
+        <input type="text" class="form-control" placeholder="user name" @bind="userInput">
+    </div>
+</div>
+<div class="input-group mb-5">
+    <span class="input-group-text">Password:</span>
+    <div class="col-sm-1">
+        <input type="text" class="form-control" placeholder="password" @bind="passwordInput">
+    </div>
+    <button type="button" class="btn btn-success" @onclick="Login" disabled="@(IsLogin)">Login</button>
+</div>
+
+
+<div class="input-group mb-2">
+    <span class="input-group-text">公屏：</span>
+    <div class="col-sm-5">
+        <input type="text" class="form-control" placeholder="public message" @bind="messageInput" size="50">
+    </div>
+    <button class="btn btn-outline-primary" type="button" @onclick="SendPublic" disabled="@(!IsConnected)">Send Public</button>
+</div>
+
+<div class="input-group">
+    <span class="input-group-text">私聊：</span>
+    <div class="col-sm-1">
+        <input type="text" class="form-control" placeholder="to user" @bind="toUserInput" size="50">
+    </div>
+    <div class="col-sm-4">
+        <input type="text" class="form-control" placeholder="private message" @bind="privateMessageInput" size="50">
+    </div>
+    <button class="btn btn-outline-secondary" type="button" @onclick="SendPrivate" disabled="@(!IsConnected)">Send Private</button>
+</div>
+
+<hr>
+
+<ul id="messagesList">
+    @foreach (var message in messages)
+    {
+        <li>@message</li>
+    }
+</ul>
+
+@code {
+    private HubConnection? hubConnection;
+    public bool IsLogin = false;
+    private List<string> messages = new List<string>();
+    private string? userInput;
+    private string? passwordInput;
+    private string? messageInput;
+
+    private string? toUserInput;
+    private string? privateMessageInput;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+    }
+
+    private async Task Login()
+    {
+        var postBody = new {userName = userInput, password = passwordInput};
+        var response = await ClientFactory.CreateClient().PostAsJsonAsync("https://localhost:7244/api/Identity/Login", postBody);
+        var jwtToken =await response.Content.ReadAsStringAsync();
+        await ConnectMyHub(jwtToken);
+        IsLogin = true;
+    }
+
+
+    private async Task ConnectMyHub(string jwtToken)
+    {
+        hubConnection = new HubConnectionBuilder()
+            .WithUrl("https://localhost:7244/MyHub", options =>{
+               options.SkipNegotiation = true;
+               options.Transports = HttpTransportType.WebSockets;
+               options.AccessTokenProvider = () =>Task.FromResult(jwtToken)!;
+            })
+            .Build();
+        hubConnection.On<string>("ReceiveMessage", message=>
+        {
+            //将消息拼接转移到web api中
+            //var encodedMsg = $"{user}({DateTime.Now}): {message}";
+            //messages.Add(encodedMsg);
+            messages.Add(message);
+            InvokeAsync(StateHasChanged);
+        });
+        hubConnection.On<string>("ReceivePrivateMessage", privateMessage =>
+        {
+            messages.Add(privateMessage);
+            InvokeAsync(StateHasChanged);
+        });
+
+
+        await hubConnection.StartAsync();
+    }
+
+
+    private async Task SendPublic()
+    {
+        if (hubConnection is not null)
+        {
+            await hubConnection.SendAsync("SendMessage", messageInput);
+            messageInput = "";
+        }
+    }
+    private async Task SendPrivate()
+    {
+        if (hubConnection is not null)
+        {
+            await hubConnection.SendAsync("SendPrivateMessage", toUserInput,privateMessageInput);
+            privateMessageInput = "";
+        }
+    }
+    public bool IsConnected =>
+        hubConnection?.State == HubConnectionState.Connected;
+
+    public async ValueTask DisposeAsync()
+    {
+        if (hubConnection is not null)
+        {
+            await hubConnection.DisposeAsync();
+        }
+    }
+}

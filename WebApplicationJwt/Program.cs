@@ -15,6 +15,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 
+#region JWT
 //启用Swagger，并配置Authorize按钮按钮
 builder.Services.AddSwaggerGen(options =>
 {
@@ -52,6 +53,15 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
+//配置检查JwtVersion中间件
+builder.Services.Configure<MvcOptions>(options =>
+{
+    options.Filters.Add<JwtVersionCheckFilter>();
+});
+#endregion
+
+
+#region Identity
 //配置上下文对应的数据库，生命周期是Scoped
 builder.Services.AddDbContext<MyDbContext>(option =>
 {
@@ -82,13 +92,10 @@ builder.Services.AddIdentityCore<MyUser>(option =>
 var idBuilder = new IdentityBuilder(typeof(MyUser), typeof(MyRole), builder.Services);
 idBuilder.AddEntityFrameworkStores<MyDbContext>().AddDefaultTokenProviders()
     .AddRoleManager<RoleManager<MyRole>>()
-    .AddUserManager<UserManager<MyUser>>();
+    .AddUserManager<UserManager<MyUser>>(); 
+#endregion
 
-//配置检查JwtVersion中间件
-builder.Services.Configure<MvcOptions>(options =>
-{
-    options.Filters.Add<JwtVersionCheckFilter>();
-});
+
 
 var app = builder.Build();
 
@@ -100,7 +107,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+//Jwt中间件
 app.UseAuthentication();
 app.UseAuthorization();
 

@@ -89,9 +89,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationIdentity", "W
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppGenerateJwt", "ConsoleAppGenerateJwt\ConsoleAppGenerateJwt.csproj", "{74AEF301-EA1C-4C7B-AB82-05092AA193E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationJwt", "WebApplicationJwt\WebApplicationJwt.csproj", "{D3C2B6AD-5BB9-4A82-B59D-B91BD447FD03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationJwt", "WebApplicationJwt\WebApplicationJwt.csproj", "{D3C2B6AD-5BB9-4A82-B59D-B91BD447FD03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationHostedService", "WebApplicationHostedService\WebApplicationHostedService.csproj", "{78CDD5BB-5C4A-4886-87D1-8A4179B80432}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationHostedService", "WebApplicationHostedService\WebApplicationHostedService.csproj", "{78CDD5BB-5C4A-4886-87D1-8A4179B80432}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationSignalR", "WebApplicationSignalR\WebApplicationSignalR.csproj", "{A4C429BA-0BEE-4E65-95C5-ED7121217B4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAppSignalR", "BlazorAppSignalR\BlazorAppSignalR.csproj", "{A26F2199-5DB9-4790-8AE4-5F2E3AAB9F2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -247,6 +251,14 @@ Global
 		{78CDD5BB-5C4A-4886-87D1-8A4179B80432}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78CDD5BB-5C4A-4886-87D1-8A4179B80432}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78CDD5BB-5C4A-4886-87D1-8A4179B80432}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4C429BA-0BEE-4E65-95C5-ED7121217B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4C429BA-0BEE-4E65-95C5-ED7121217B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4C429BA-0BEE-4E65-95C5-ED7121217B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4C429BA-0BEE-4E65-95C5-ED7121217B4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A26F2199-5DB9-4790-8AE4-5F2E3AAB9F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26F2199-5DB9-4790-8AE4-5F2E3AAB9F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A26F2199-5DB9-4790-8AE4-5F2E3AAB9F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A26F2199-5DB9-4790-8AE4-5F2E3AAB9F2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -289,6 +301,8 @@ Global
 		{74AEF301-EA1C-4C7B-AB82-05092AA193E6} = {F6BA685D-7332-4306-BC41-7E4CFF172F85}
 		{D3C2B6AD-5BB9-4A82-B59D-B91BD447FD03} = {F6BA685D-7332-4306-BC41-7E4CFF172F85}
 		{78CDD5BB-5C4A-4886-87D1-8A4179B80432} = {F6BA685D-7332-4306-BC41-7E4CFF172F85}
+		{A4C429BA-0BEE-4E65-95C5-ED7121217B4A} = {F6BA685D-7332-4306-BC41-7E4CFF172F85}
+		{A26F2199-5DB9-4790-8AE4-5F2E3AAB9F2C} = {F6BA685D-7332-4306-BC41-7E4CFF172F85}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {42033C1D-7E2F-4ABB-B48E-1E0C242DF569}

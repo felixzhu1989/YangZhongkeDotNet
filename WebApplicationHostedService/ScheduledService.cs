@@ -1,5 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace WebApplicationHostedService
 {
@@ -23,7 +22,7 @@ namespace WebApplicationHostedService
                 while (!stoppingToken.IsCancellationRequested)
                 {
                     var c = await context.Users.LongCountAsync(cancellationToken: stoppingToken);
-                    await System.IO.File.WriteAllTextAsync("d:/usercount.txt", c.ToString(), stoppingToken);
+                    await System.IO.File.WriteAllTextAsync("d:/user_count.txt", c.ToString(), stoppingToken);
                     await Task.Delay(5000, stoppingToken);//每隔5秒钟执行一次循环
                     Console.WriteLine($"导出成功{DateTime.Now}");
                 }

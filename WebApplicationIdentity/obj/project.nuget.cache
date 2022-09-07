@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "/rPP/CQbpN5xJyuJn1oQ0uHOJHuSSa0sWi0YspI8QTV0nmonkvB0AXVCu7a2J4vIoISaQaG5kCZ1Srwrpg49vw==",
+  "dgSpecHash": "sBPmN6qKJWH6RSQOL1evPDvokftX/dj2cQQmK6pf+JcPHs5B0oCMcynLRL3AWgDJUdTrjI9tYIzU4M+Aq+np9A==",
   "success": true,
   "projectFilePath": "E:\\CSharp\\repos\\YangZhongkeDotNet\\WebApplicationIdentity\\WebApplicationIdentity.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\felix.zhu\\.nuget\\packages\\fluentvalidation\\11.2.0\\fluentvalidation.11.2.0.nupkg.sha512",
+    "C:\\Users\\felix.zhu\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.1\\fluentvalidation.aspnetcore.11.2.1.nupkg.sha512",
+    "C:\\Users\\felix.zhu\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.0\\fluentvalidation.dependencyinjectionextensions.11.2.0.nupkg.sha512",
     "C:\\Users\\felix.zhu\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\felix.zhu\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.8\\microsoft.aspnetcore.cryptography.internal.6.0.8.nupkg.sha512",
     "C:\\Users\\felix.zhu\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.8\\microsoft.aspnetcore.cryptography.keyderivation.6.0.8.nupkg.sha512",

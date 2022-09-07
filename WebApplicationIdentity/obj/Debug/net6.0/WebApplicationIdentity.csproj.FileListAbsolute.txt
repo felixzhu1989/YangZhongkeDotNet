@@ -64,3 +64,6 @@ E:\CSharp\repos\YangZhongkeDotNet\WebApplicationIdentity\obj\Debug\net6.0\WebApp
 E:\CSharp\repos\YangZhongkeDotNet\WebApplicationIdentity\obj\Debug\net6.0\ref\WebApplicationIdentity.dll
 E:\CSharp\repos\YangZhongkeDotNet\WebApplicationIdentity\bin\Debug\net6.0\Humanizer.dll
 E:\CSharp\repos\YangZhongkeDotNet\WebApplicationIdentity\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\CSharp\repos\YangZhongkeDotNet\WebApplicationIdentity\bin\Debug\net6.0\FluentValidation.dll
+E:\CSharp\repos\YangZhongkeDotNet\WebApplicationIdentity\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+E:\CSharp\repos\YangZhongkeDotNet\WebApplicationIdentity\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
