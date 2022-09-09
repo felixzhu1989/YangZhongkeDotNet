@@ -1,5 +1,4 @@
 using Microsoft.AspNetCore.Identity;
-using System.Reflection;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
@@ -130,12 +129,13 @@ idBuilder.AddEntityFrameworkStores<MyDbContext>().AddDefaultTokenProviders()
 
 var app = builder.Build();
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
+//if (app.Environment.IsDevelopment())
+//{
+//    app.UseSwagger();
+//    app.UseSwaggerUI();
+//}
+app.UseSwagger();
+app.UseSwaggerUI();
 
 //app.UseCors();//跨域访问，在UseHttpsRedirection之前
 app.UseCors(x => x.WithOrigins("https://localhost:7192")
@@ -151,9 +151,6 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapHub<MyHub>("/MyHub");//，在MapControllers之前
-
-
-
 
 app.MapControllers();
 

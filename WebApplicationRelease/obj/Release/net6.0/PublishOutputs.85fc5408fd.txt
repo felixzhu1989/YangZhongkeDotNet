@@ -1,0 +1,7 @@
+E:\CSharp\repos\YangZhongkeDotNet\WebApplicationRelease\obj\Release\net6.0\PubTmp\Out\WebApplicationRelease.exe
+E:\CSharp\repos\YangZhongkeDotNet\WebApplicationRelease\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+E:\CSharp\repos\YangZhongkeDotNet\WebApplicationRelease\obj\Release\net6.0\PubTmp\Out\appsettings.json
+E:\CSharp\repos\YangZhongkeDotNet\WebApplicationRelease\obj\Release\net6.0\PubTmp\Out\WebApplicationRelease.dll
+E:\CSharp\repos\YangZhongkeDotNet\WebApplicationRelease\obj\Release\net6.0\PubTmp\Out\WebApplicationRelease.deps.json
+E:\CSharp\repos\YangZhongkeDotNet\WebApplicationRelease\obj\Release\net6.0\PubTmp\Out\WebApplicationRelease.runtimeconfig.json
+E:\CSharp\repos\YangZhongkeDotNet\WebApplicationRelease\obj\Release\net6.0\PubTmp\Out\WebApplicationRelease.pdb

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>E:\CSharp\repos\YangZhongkeDotNet\WebApplicationSignalR\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2022-09-08T08:19:15.3080424Z;True|2022-09-08T16:18:34.8422572+08:00;True|2022-09-08T16:17:34.2230715+08:00;True|2022-09-08T16:01:29.5341159+08:00;True|2022-09-08T15:06:16.5921677+08:00;True|2022-09-08T14:33:27.4397801+08:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

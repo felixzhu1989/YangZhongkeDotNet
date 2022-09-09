@@ -1,5 +1,4 @@
-﻿using System.Diagnostics;
-using System.Security.Claims;
+﻿using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.SignalR;
@@ -39,6 +38,7 @@ namespace WebApplicationSignalR
             //获取发送消息的人
             var claim = Context.User!.FindFirst(ClaimTypes.Name);
             var msgToSend = $"{DateTime.Now.ToShortDateString()} {DateTime.Now.ToShortTimeString()} | {claim!.Value.ToLower()} => {toUserName.ToLower()} : {message}";
+            //根据用户Id，过滤发送消息的人
             await Clients.User(destUser.Id.ToString()).SendAsync("ReceivePrivateMessage",  msgToSend);
         }
 

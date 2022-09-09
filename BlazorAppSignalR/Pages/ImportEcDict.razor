@@ -1,0 +1,70 @@
+﻿@page "/importecdict"
+@using Microsoft.AspNetCore.SignalR.Client
+@using Microsoft.AspNetCore.Http.Connections
+@implements IAsyncDisposable
+
+
+<PageTitle>Import EcDict</PageTitle>
+
+<h3>Import EcDict</h3>
+
+<button class="btn btn-outline-secondary m-3" type="button" @onclick="ConnectMyHub" disabled="@(IsConnected)">Connect SignalR</button>
+
+<button class="btn btn-outline-primary m-3" type="button" @onclick="StartImportEcDict" disabled="@(!IsConnected)">Import EcDict</button>
+
+<div class="progress mb-2">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="@percent" aria-valuemin="0" aria-valuemax="100" style="width: @percent%"></div>
+</div>
+
+
+<p role="status">Current row: @currentCount</p>
+
+@code {
+    private HubConnection? hubConnection;
+    private int totalCount;
+    private int currentCount;
+    public double percent => 100d*currentCount/totalCount;
+
+    protected override async Task OnInitializedAsync()
+    {
+       //await ConnectMyHub();
+    }
+    private async Task ConnectMyHub()
+    {
+        hubConnection = new HubConnectionBuilder()
+            .WithUrl("https://localhost:7286/ImportHub", options =>
+            {
+               options.SkipNegotiation = true;
+               options.Transports = HttpTransportType.WebSockets;
+            })
+            .Build();
+        //监听Hub中来自ImportProgress的消息，接收总数和当前进度
+        hubConnection.On<int, int>("ImportProgress", (totalLines, counter) =>
+        {
+            totalCount =totalLines;
+            currentCount =counter;
+            InvokeAsync(StateHasChanged);
+        });
+        await hubConnection.StartAsync();
+    }
+    
+    private async Task StartImportEcDict()
+    {
+        if (hubConnection is not null)
+        {
+            //调用Hub中ImportEcDict方法，启动导入数据库
+            await hubConnection.SendAsync("ImportEcDict");
+        }
+    }
+
+    public bool IsConnected =>
+        hubConnection?.State == HubConnectionState.Connected;
+
+    public async ValueTask DisposeAsync()
+    {
+        if (hubConnection is not null)
+        {
+            await hubConnection.DisposeAsync();
+        }
+    }
+}

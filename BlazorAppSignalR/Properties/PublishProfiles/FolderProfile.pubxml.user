@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>E:\CSharp\repos\YangZhongkeDotNet\BlazorAppSignalR\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2022-09-08T09:05:29.1505565Z;True|2022-09-08T17:03:24.2821668+08:00;True|2022-09-08T16:37:05.5865783+08:00;True|2022-09-08T15:57:24.3948035+08:00;True|2022-09-08T14:58:51.5289322+08:00;True|2022-09-08T14:33:57.4480494+08:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

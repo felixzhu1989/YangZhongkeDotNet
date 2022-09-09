@@ -67,24 +67,43 @@
 
     private async Task Login()
     {
-        var postBody = new {userName = userInput, password = passwordInput};
+        //ServicePointManager.ServerCertificateValidationCallback += (sender, certificate, chain, errors) => true;
+        //ServicePointManager.ServerCertificateValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator;
+        /*ServicePointManager.ServerCertificateValidationCallback +=
+            (sender, certificate, chain, errors) =>
+            {
+                // local dev, just approve all certs
+                if (development) return true;
+                return errors == SslPolicyErrors.None
+                       && validCerts.Contains(certificate.GetCertHashString());
+            };*/
+
+
+
+        //登录用户
+        var postBody = new { userName = userInput, password = passwordInput };
         var response = await ClientFactory.CreateClient().PostAsJsonAsync("https://localhost:7244/api/Identity/Login", postBody);
-        var jwtToken =await response.Content.ReadAsStringAsync();
+        
+        //获取jwtToken
+        var jwtToken = await response.Content.ReadAsStringAsync();
+        //连接SignalR
         await ConnectMyHub(jwtToken);
         IsLogin = true;
     }
 
-
     private async Task ConnectMyHub(string jwtToken)
     {
         hubConnection = new HubConnectionBuilder()
-            .WithUrl("https://localhost:7244/MyHub", options =>{
-               options.SkipNegotiation = true;
-               options.Transports = HttpTransportType.WebSockets;
-               options.AccessTokenProvider = () =>Task.FromResult(jwtToken)!;
+            .WithUrl("https://localhost:7244/MyHub", options =>
+            {
+                options.SkipNegotiation = true;
+                options.Transports = HttpTransportType.WebSockets;
+                //连接SignalR时，传递jwtToken
+                options.AccessTokenProvider = () => Task.FromResult(jwtToken)!;
             })
             .Build();
-        hubConnection.On<string>("ReceiveMessage", message=>
+        //监听Hub中来自ReceiveMessage的消息
+        hubConnection.On<string>("ReceiveMessage", message =>
         {
             //将消息拼接转移到web api中
             //var encodedMsg = $"{user}({DateTime.Now}): {message}";
@@ -92,12 +111,12 @@
             messages.Add(message);
             InvokeAsync(StateHasChanged);
         });
+        //监听Hub中来自ReceivePrivateMessage的消息
         hubConnection.On<string>("ReceivePrivateMessage", privateMessage =>
         {
             messages.Add(privateMessage);
             InvokeAsync(StateHasChanged);
         });
-
 
         await hubConnection.StartAsync();
     }
@@ -107,6 +126,7 @@
     {
         if (hubConnection is not null)
         {
+            //调用Hub中SendMessage方法，发送消息
             await hubConnection.SendAsync("SendMessage", messageInput);
             messageInput = "";
         }
@@ -115,7 +135,8 @@
     {
         if (hubConnection is not null)
         {
-            await hubConnection.SendAsync("SendPrivateMessage", toUserInput,privateMessageInput);
+            //调用Hub中SendPrivateMessage方法，发送消息
+            await hubConnection.SendAsync("SendPrivateMessage", toUserInput, privateMessageInput);
             privateMessageInput = "";
         }
     }

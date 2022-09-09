@@ -3,6 +3,7 @@ using System.Security.Claims;
 using System.Text;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
@@ -14,9 +15,11 @@ namespace WebApplicationSignalR.Controllers
     {
         //注入Identity中的UserManager
         private readonly UserManager<MyUser> _userManager;
-        public IdentityController(UserManager<MyUser> userManager)
+        private readonly IHubContext<MyHub> _myHubContext;
+        public IdentityController(UserManager<MyUser> userManager, IHubContext<MyHub> myHubContext)
         {
             _userManager = userManager;
+            _myHubContext = myHubContext;
         }
 
         //新增用户操作
@@ -26,6 +29,8 @@ namespace WebApplicationSignalR.Controllers
         {
             MyUser user = new MyUser { UserName = request.UserName, Email = request.Email };
             await _userManager.CreateAsync(user, request.Password);
+            //调用SignalR群发消息
+            await _myHubContext.Clients.All.SendAsync("ReceiveMessage", $"{DateTime.Now.ToShortDateString()} {DateTime.Now.ToShortTimeString()} | 系统消息 : 欢迎{user.UserName}加入我们！");
             return Ok();
         }
 
@@ -69,8 +74,8 @@ namespace WebApplicationSignalR.Controllers
         public async Task<IActionResult> Login(LoginRequest request, [FromServices] IOptions<JwtOptions> jwtOptions)
         {
             var userName = request.UserName;
-            var password=request.Password;
-            var user=await _userManager.FindByNameAsync(userName);
+            var password = request.Password;
+            var user = await _userManager.FindByNameAsync(userName);
             //验证用户是否存在
             if (user == null) return NotFound($"{userName}用户不存在");
             if (await _userManager.IsLockedOutAsync(user)) return BadRequest($"{userName}被锁定，请稍后重试，锁定结束时间{user.LockoutEnd}");
@@ -100,7 +105,7 @@ namespace WebApplicationSignalR.Controllers
             var roles = await _userManager.GetRolesAsync(user);
             foreach (var role in roles)
             {
-                claims.Add(new Claim(ClaimTypes.Role,role));
+                claims.Add(new Claim(ClaimTypes.Role, role));
             }
             var jwtToken = BuildToken(claims, jwtOptions.Value);
             return Ok(jwtToken);
