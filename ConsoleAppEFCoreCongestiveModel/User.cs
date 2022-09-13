@@ -4,18 +4,18 @@ namespace ConsoleAppEFCoreCongestiveModel
 {
     public class User
     {
-        public long Id { get;}//特征1
+        public long Id { get; init; }//特征1，只读属性
         public DateTime CreateTime { get; init; }//特征1
         public string Name { get; private set; }//特征1
         public int Credits { get;private set; }//特征1
-        public string? passwordHash;//特征3
+        private string? passwordHash;//特征3,成员变量映射到数据库
         private string? remark;
         public string? Remark
         {
             get { return remark; }
         }//特征4
-        public string? Tag { get; set; }//特征5
-
+        public string? Tag { get; set; }//特征5，不映射到数据库
+        //EF Core从数据库中加载数据然后生成User对象返回用
         private User()//只给EF Core用，特征2
         {
             
@@ -46,7 +46,5 @@ namespace ConsoleAppEFCoreCongestiveModel
             }
             passwordHash = HashHelper.ComputeMd5Hash(pwd);
         }
-
-
     }
 }

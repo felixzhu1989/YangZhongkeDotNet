@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+hy55c4sISDtTEGbUCcooZQc6B6c9fC2aJ3O1dly27A=",
+  "Hash": "1SLSBDKQlZ/Z4Rxq9tyfGDwPZF8F8sDl282BcYfaOnk=",
   "Source": "BlazorAppSignalR",
   "BasePath": "_content/BlazorAppSignalR",
   "Mode": "Default",
@@ -83,23 +83,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "E:\\CSharp\\repos\\YangZhongkeDotNet\\BlazorAppSignalR\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "BlazorAppSignalR",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\CSharp\\repos\\YangZhongkeDotNet\\BlazorAppSignalR\\wwwroot\\",
-      "BasePath": "_content/BlazorAppSignalR",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "E:\\CSharp\\repos\\YangZhongkeDotNet\\BlazorAppSignalR\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
@@ -202,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "E:\\CSharp\\repos\\YangZhongkeDotNet\\BlazorAppSignalR\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "BlazorAppSignalR",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CSharp\\repos\\YangZhongkeDotNet\\BlazorAppSignalR\\wwwroot\\",
+      "BasePath": "_content/BlazorAppSignalR",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "E:\\CSharp\\repos\\YangZhongkeDotNet\\BlazorAppSignalR\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
