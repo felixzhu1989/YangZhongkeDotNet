@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "c5M4DBJqUbuPX+CAOf0XyhQmEPYp6U0SpYDxk2BgSgM6bLcoYw6vCPUlJdO/3Px6QvH3rNqZxxM41ZEScElbtA==",
+  "dgSpecHash": "oaLFm8ESPnDtjamaUaKQu30Wz/Ui0QMOVOZ+GGP2RfTXWEtQVo+H00tIM7fLCD7Z9HJQCFfp/VB2HacaJnW6BA==",
   "success": true,
   "projectFilePath": "E:\\CSharp\\repos\\YangZhongkeDotNet\\WebApplicationCustomMiddleware\\WebApplicationCustomMiddleware.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\felix.zhu\\.nuget\\packages\\dynamic.json\\1.3.0\\dynamic.json.1.3.0.nupkg.sha512",
-    "C:\\Users\\felix.zhu\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\dynamic.json\\1.3.0\\dynamic.json.1.3.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512"
   ],
   "logs": []
 }

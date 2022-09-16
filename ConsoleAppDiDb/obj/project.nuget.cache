@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "EHLIwnGkIiYMsdnCI6xwzBDUPeIf1C7JHpU3q/cAELc0Dqc6/Etr2R5V43IsXPEgp8HNfQB3yscb5XloOr2QLA==",
+  "dgSpecHash": "5MhVF1MmGLztcoRnEkSyZw4WLxBFlroUf3nPDQAmNKrfBxVaxvED3BbgSwGk0UVjXnVdkRppdFd9zuj2IyBDNw==",
   "success": true,
   "projectFilePath": "E:\\CSharp\\repos\\YangZhongkeDotNet\\ConsoleAppDiDb\\ConsoleAppDiDb.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\felix.zhu\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
-    "C:\\Users\\felix.zhu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
-    "C:\\Users\\felix.zhu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

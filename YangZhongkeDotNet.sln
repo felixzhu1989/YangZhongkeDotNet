@@ -103,7 +103,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationRelease", "We
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09.DDD", "09.DDD", "{DD13DDDD-10B1-4A12-8682-B14CC019F0EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppEFCoreCongestiveModel", "ConsoleAppEFCoreCongestiveModel\ConsoleAppEFCoreCongestiveModel.csproj", "{EA5AD5D8-6278-45F3-BB02-687190DFB959}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppEFCoreCongestiveModel", "ConsoleAppEFCoreCongestiveModel\ConsoleAppEFCoreCongestiveModel.csproj", "{EA5AD5D8-6278-45F3-BB02-687190DFB959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationMediatR", "WebApplicationMediatR\WebApplicationMediatR.csproj", "{293C33C8-29E4-44D5-A8AE-12F74D7A3024}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -279,6 +281,10 @@ Global
 		{EA5AD5D8-6278-45F3-BB02-687190DFB959}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA5AD5D8-6278-45F3-BB02-687190DFB959}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA5AD5D8-6278-45F3-BB02-687190DFB959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{293C33C8-29E4-44D5-A8AE-12F74D7A3024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{293C33C8-29E4-44D5-A8AE-12F74D7A3024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{293C33C8-29E4-44D5-A8AE-12F74D7A3024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{293C33C8-29E4-44D5-A8AE-12F74D7A3024}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -326,6 +332,7 @@ Global
 		{A8D23D3D-C035-49A9-9797-5651B27C26E5} = {F6BA685D-7332-4306-BC41-7E4CFF172F85}
 		{234075B4-207A-49E2-833B-5B81CE25912F} = {F6BA685D-7332-4306-BC41-7E4CFF172F85}
 		{EA5AD5D8-6278-45F3-BB02-687190DFB959} = {DD13DDDD-10B1-4A12-8682-B14CC019F0EE}
+		{293C33C8-29E4-44D5-A8AE-12F74D7A3024} = {DD13DDDD-10B1-4A12-8682-B14CC019F0EE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {42033C1D-7E2F-4ABB-B48E-1E0C242DF569}

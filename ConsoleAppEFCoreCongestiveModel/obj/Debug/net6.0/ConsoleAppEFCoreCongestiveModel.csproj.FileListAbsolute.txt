@@ -63,3 +63,16 @@ E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppEFCoreCongestiveModel\obj\Debug\net6
 E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppEFCoreCongestiveModel\obj\Debug\net6.0\ConsoleAppEFCoreCongestiveModel.pdb
 E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppEFCoreCongestiveModel\obj\Debug\net6.0\ConsoleAppEFCoreCongestiveModel.genruntimeconfig.cache
 E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppEFCoreCongestiveModel\obj\Debug\net6.0\ref\ConsoleAppEFCoreCongestiveModel.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppEFCoreCongestiveModel\bin\Debug\net6.0\MediatR.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppEFCoreCongestiveModel\bin\Debug\net6.0\MediatR.Contracts.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppEFCoreCongestiveModel\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppEFCoreCongestiveModel\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppEFCoreCongestiveModel\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppEFCoreCongestiveModel\bin\Debug\net6.0\RedLockNet.Abstractions.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppEFCoreCongestiveModel\bin\Debug\net6.0\RedLockNet.SERedis.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppEFCoreCongestiveModel\bin\Debug\net6.0\StackExchange.Redis.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppEFCoreCongestiveModel\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppEFCoreCongestiveModel\bin\Debug\net6.0\System.IO.Pipelines.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppEFCoreCongestiveModel\bin\Debug\net6.0\Zack.DomainCommons.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppEFCoreCongestiveModel\bin\Debug\net6.0\Zack.Infrastructure.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppEFCoreCongestiveModel\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll

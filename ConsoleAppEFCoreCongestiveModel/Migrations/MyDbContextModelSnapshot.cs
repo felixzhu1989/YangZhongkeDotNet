@@ -22,6 +22,58 @@ namespace ConsoleAppEFCoreCongestiveModel.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("ConsoleAppEFCoreCongestiveModel.Blog", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Blogs");
+                });
+
+            modelBuilder.Entity("ConsoleAppEFCoreCongestiveModel.EntityCurrency", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Currency")
+                        .IsRequired()
+                        .HasMaxLength(5)
+                        .HasColumnType("nvarchar(5)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("EntityCurrencies");
+                });
+
+            modelBuilder.Entity("ConsoleAppEFCoreCongestiveModel.Shop", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Shops");
+                });
+
             modelBuilder.Entity("ConsoleAppEFCoreCongestiveModel.User", b =>
                 {
                     b.Property<long>("Id")
@@ -49,6 +101,81 @@ namespace ConsoleAppEFCoreCongestiveModel.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("ConsoleAppEFCoreCongestiveModel.Blog", b =>
+                {
+                    b.OwnsOne("ConsoleAppEFCoreCongestiveModel.MultilingualString", "Body", b1 =>
+                        {
+                            b1.Property<int>("BlogId")
+                                .HasColumnType("int");
+
+                            b1.Property<string>("Chinese")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(max)");
+
+                            b1.Property<string>("English")
+                                .HasColumnType("varchar(MAX)");
+
+                            b1.HasKey("BlogId");
+
+                            b1.ToTable("Blogs");
+
+                            b1.WithOwner()
+                                .HasForeignKey("BlogId");
+                        });
+
+                    b.OwnsOne("ConsoleAppEFCoreCongestiveModel.MultilingualString", "Title", b1 =>
+                        {
+                            b1.Property<int>("BlogId")
+                                .HasColumnType("int");
+
+                            b1.Property<string>("Chinese")
+                                .IsRequired()
+                                .HasMaxLength(255)
+                                .HasColumnType("nvarchar(255)");
+
+                            b1.Property<string>("English")
+                                .HasColumnType("varchar(255)");
+
+                            b1.HasKey("BlogId");
+
+                            b1.ToTable("Blogs");
+
+                            b1.WithOwner()
+                                .HasForeignKey("BlogId");
+                        });
+
+                    b.Navigation("Body")
+                        .IsRequired();
+
+                    b.Navigation("Title")
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("ConsoleAppEFCoreCongestiveModel.Shop", b =>
+                {
+                    b.OwnsOne("ConsoleAppEFCoreCongestiveModel.Geo", "Location", b1 =>
+                        {
+                            b1.Property<int>("ShopId")
+                                .HasColumnType("int");
+
+                            b1.Property<double>("Latitude")
+                                .HasColumnType("float");
+
+                            b1.Property<double>("Longitude")
+                                .HasColumnType("float");
+
+                            b1.HasKey("ShopId");
+
+                            b1.ToTable("Shops");
+
+                            b1.WithOwner()
+                                .HasForeignKey("ShopId");
+                        });
+
+                    b.Navigation("Location")
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

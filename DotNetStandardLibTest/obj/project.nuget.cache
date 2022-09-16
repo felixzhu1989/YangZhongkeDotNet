@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "hWM5RX5sl0W3m7Chno1C4znOm0aXqVyNMLaLKG93unQGyoXR7YQ4J/QW8Ou2X7lImiflgVlF3eBKkpP0TWOENw==",
+  "dgSpecHash": "MzoL8i48z225iZ+GBHJcWclH8SV69o8gM4KoPorIOJQenHBeHsFOzcxaQYDePxull1wWVRhvqU1ojhU3h3mIcg==",
   "success": true,
   "projectFilePath": "E:\\CSharp\\repos\\YangZhongkeDotNet\\DotNetStandardLibTest\\DotNetStandardLibTest.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
