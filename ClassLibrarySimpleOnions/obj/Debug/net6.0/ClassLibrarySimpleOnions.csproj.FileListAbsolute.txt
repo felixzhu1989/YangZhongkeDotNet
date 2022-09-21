@@ -1,0 +1,12 @@
+E:\CSharp\repos\YangZhongkeDotNet\ClassLibrarySimpleOnions\obj\Debug\net6.0\ClassLibrarySimpleOnions.csproj.AssemblyReference.cache
+E:\CSharp\repos\YangZhongkeDotNet\ClassLibrarySimpleOnions\obj\Debug\net6.0\ClassLibrarySimpleOnions.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\YangZhongkeDotNet\ClassLibrarySimpleOnions\obj\Debug\net6.0\ClassLibrarySimpleOnions.AssemblyInfoInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\ClassLibrarySimpleOnions\obj\Debug\net6.0\ClassLibrarySimpleOnions.AssemblyInfo.cs
+E:\CSharp\repos\YangZhongkeDotNet\ClassLibrarySimpleOnions\obj\Debug\net6.0\ClassLibrarySimpleOnions.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\ClassLibrarySimpleOnions\bin\Debug\net6.0\ClassLibrarySimpleOnions.deps.json
+E:\CSharp\repos\YangZhongkeDotNet\ClassLibrarySimpleOnions\bin\Debug\net6.0\ClassLibrarySimpleOnions.dll
+E:\CSharp\repos\YangZhongkeDotNet\ClassLibrarySimpleOnions\bin\Debug\net6.0\ClassLibrarySimpleOnions.pdb
+E:\CSharp\repos\YangZhongkeDotNet\ClassLibrarySimpleOnions\obj\Debug\net6.0\ClassLibrarySimpleOnions.dll
+E:\CSharp\repos\YangZhongkeDotNet\ClassLibrarySimpleOnions\obj\Debug\net6.0\refint\ClassLibrarySimpleOnions.dll
+E:\CSharp\repos\YangZhongkeDotNet\ClassLibrarySimpleOnions\obj\Debug\net6.0\ClassLibrarySimpleOnions.pdb
+E:\CSharp\repos\YangZhongkeDotNet\ClassLibrarySimpleOnions\obj\Debug\net6.0\ref\ClassLibrarySimpleOnions.dll

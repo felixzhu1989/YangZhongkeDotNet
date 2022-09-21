@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "ScafflodCompass": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:13044;http://localhost:13045"
+    }
+  }
+}

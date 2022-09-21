@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "MailServices": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:13030;http://localhost:13031"
+    }
+  }
+}

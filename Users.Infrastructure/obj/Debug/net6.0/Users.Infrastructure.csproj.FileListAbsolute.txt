@@ -1,0 +1,17 @@
+E:\CSharp\repos\YangZhongkeDotNet\Users.Infrastructure\bin\Debug\net6.0\Users.Infrastructure.deps.json
+E:\CSharp\repos\YangZhongkeDotNet\Users.Infrastructure\bin\Debug\net6.0\Users.Infrastructure.runtimeconfig.json
+E:\CSharp\repos\YangZhongkeDotNet\Users.Infrastructure\bin\Debug\net6.0\Users.Infrastructure.dll
+E:\CSharp\repos\YangZhongkeDotNet\Users.Infrastructure\bin\Debug\net6.0\Users.Infrastructure.pdb
+E:\CSharp\repos\YangZhongkeDotNet\Users.Infrastructure\bin\Debug\net6.0\Users.Domain.dll
+E:\CSharp\repos\YangZhongkeDotNet\Users.Infrastructure\bin\Debug\net6.0\Users.Domain.pdb
+E:\CSharp\repos\YangZhongkeDotNet\Users.Infrastructure\obj\Debug\net6.0\Users.Infrastructure.csproj.AssemblyReference.cache
+E:\CSharp\repos\YangZhongkeDotNet\Users.Infrastructure\obj\Debug\net6.0\Users.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\YangZhongkeDotNet\Users.Infrastructure\obj\Debug\net6.0\Users.Infrastructure.AssemblyInfoInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\Users.Infrastructure\obj\Debug\net6.0\Users.Infrastructure.AssemblyInfo.cs
+E:\CSharp\repos\YangZhongkeDotNet\Users.Infrastructure\obj\Debug\net6.0\Users.Infrastructure.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\Users.Infrastructure\obj\Debug\net6.0\Users.Infrastructure.csproj.CopyComplete
+E:\CSharp\repos\YangZhongkeDotNet\Users.Infrastructure\obj\Debug\net6.0\Users.Infrastructure.dll
+E:\CSharp\repos\YangZhongkeDotNet\Users.Infrastructure\obj\Debug\net6.0\refint\Users.Infrastructure.dll
+E:\CSharp\repos\YangZhongkeDotNet\Users.Infrastructure\obj\Debug\net6.0\Users.Infrastructure.pdb
+E:\CSharp\repos\YangZhongkeDotNet\Users.Infrastructure\obj\Debug\net6.0\Users.Infrastructure.genruntimeconfig.cache
+E:\CSharp\repos\YangZhongkeDotNet\Users.Infrastructure\obj\Debug\net6.0\ref\Users.Infrastructure.dll

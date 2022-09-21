@@ -1,0 +1,17 @@
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQSender\bin\Debug\net6.0\ConsoleAppRabbitMQSender.exe
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQSender\bin\Debug\net6.0\ConsoleAppRabbitMQSender.deps.json
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQSender\bin\Debug\net6.0\ConsoleAppRabbitMQSender.runtimeconfig.json
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQSender\bin\Debug\net6.0\ConsoleAppRabbitMQSender.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQSender\bin\Debug\net6.0\ConsoleAppRabbitMQSender.pdb
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQSender\bin\Debug\net6.0\RabbitMQ.Client.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQSender\obj\Debug\net6.0\ConsoleAppRabbitMQSender.csproj.AssemblyReference.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQSender\obj\Debug\net6.0\ConsoleAppRabbitMQSender.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQSender\obj\Debug\net6.0\ConsoleAppRabbitMQSender.AssemblyInfoInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQSender\obj\Debug\net6.0\ConsoleAppRabbitMQSender.AssemblyInfo.cs
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQSender\obj\Debug\net6.0\ConsoleAppRabbitMQSender.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQSender\obj\Debug\net6.0\ConsoleAppRabbitMQSender.csproj.CopyComplete
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQSender\obj\Debug\net6.0\ConsoleAppRabbitMQSender.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQSender\obj\Debug\net6.0\refint\ConsoleAppRabbitMQSender.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQSender\obj\Debug\net6.0\ConsoleAppRabbitMQSender.pdb
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQSender\obj\Debug\net6.0\ConsoleAppRabbitMQSender.genruntimeconfig.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQSender\obj\Debug\net6.0\ref\ConsoleAppRabbitMQSender.dll

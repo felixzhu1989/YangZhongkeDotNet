@@ -1,0 +1,17 @@
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQConsumer\bin\Debug\net6.0\ConsoleAppRabbitMQConsumer.exe
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQConsumer\bin\Debug\net6.0\ConsoleAppRabbitMQConsumer.deps.json
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQConsumer\bin\Debug\net6.0\ConsoleAppRabbitMQConsumer.runtimeconfig.json
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQConsumer\bin\Debug\net6.0\ConsoleAppRabbitMQConsumer.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQConsumer\bin\Debug\net6.0\ConsoleAppRabbitMQConsumer.pdb
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQConsumer\bin\Debug\net6.0\RabbitMQ.Client.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQConsumer\obj\Debug\net6.0\ConsoleAppRabbitMQConsumer.csproj.AssemblyReference.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQConsumer\obj\Debug\net6.0\ConsoleAppRabbitMQConsumer.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQConsumer\obj\Debug\net6.0\ConsoleAppRabbitMQConsumer.AssemblyInfoInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQConsumer\obj\Debug\net6.0\ConsoleAppRabbitMQConsumer.AssemblyInfo.cs
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQConsumer\obj\Debug\net6.0\ConsoleAppRabbitMQConsumer.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQConsumer\obj\Debug\net6.0\ConsoleAppRabbitMQConsumer.csproj.CopyComplete
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQConsumer\obj\Debug\net6.0\ConsoleAppRabbitMQConsumer.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQConsumer\obj\Debug\net6.0\refint\ConsoleAppRabbitMQConsumer.dll
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQConsumer\obj\Debug\net6.0\ConsoleAppRabbitMQConsumer.pdb
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQConsumer\obj\Debug\net6.0\ConsoleAppRabbitMQConsumer.genruntimeconfig.cache
+E:\CSharp\repos\YangZhongkeDotNet\ConsoleAppRabbitMQConsumer\obj\Debug\net6.0\ref\ConsoleAppRabbitMQConsumer.dll

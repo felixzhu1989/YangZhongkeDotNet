@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bB+PaThXUolqSdwfd/plXidDe2ORjNlFKc87GxQBfiM=",
+  "Source": "WebApplicationRabbitMQSender",
+  "BasePath": "_content/WebApplicationRabbitMQSender",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
