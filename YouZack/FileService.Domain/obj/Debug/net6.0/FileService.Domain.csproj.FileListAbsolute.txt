@@ -1,0 +1,12 @@
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.Domain\bin\Debug\net6.0\FileService.Domain.deps.json
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.Domain\bin\Debug\net6.0\FileService.Domain.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.Domain\bin\Debug\net6.0\FileService.Domain.pdb
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.Domain\obj\Debug\net6.0\FileService.Domain.csproj.AssemblyReference.cache
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.Domain\obj\Debug\net6.0\FileService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.Domain\obj\Debug\net6.0\FileService.Domain.AssemblyInfoInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.Domain\obj\Debug\net6.0\FileService.Domain.AssemblyInfo.cs
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.Domain\obj\Debug\net6.0\FileService.Domain.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.Domain\obj\Debug\net6.0\FileService.Domain.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.Domain\obj\Debug\net6.0\refint\FileService.Domain.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.Domain\obj\Debug\net6.0\FileService.Domain.pdb
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.Domain\obj\Debug\net6.0\ref\FileService.Domain.dll

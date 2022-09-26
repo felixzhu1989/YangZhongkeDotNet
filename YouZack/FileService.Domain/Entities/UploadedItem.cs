@@ -39,10 +39,25 @@ namespace FileService.Domain.Entities
         /// <summary>
         /// 云存储路径,上传的文件的供外部访问者访问的路径（演示时存在服务器上一个路径）
         /// </summary>
-        public Uri RomoteUrl { get; set; }
+        public Uri RemoteUrl { get;private set; }
 
 
-
+        //创建类的对象实例(其实就是初始化)，因为都是只读属性
+        public static UploadedItem Create(Guid id, long fileSizeInBytes, string fileName, string fileSHA256Hash,
+            Uri backupUrl, Uri remoteUrl)
+        {
+            UploadedItem item = new UploadedItem()
+            {
+                Id=id,
+                CreationTime = DateTime.Now,
+                FileName=fileName,  
+                FileSHA256Hash = fileSHA256Hash,
+                FileSizeInBytes=fileSizeInBytes,
+                BackupUrl = backupUrl,
+                RemoteUrl=remoteUrl
+            };
+            return item;
+        }
 
     }
 }

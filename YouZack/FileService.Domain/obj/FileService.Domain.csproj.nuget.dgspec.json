@@ -39,6 +39,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Zack.Commons": {
+              "target": "Package",
+              "version": "[1.1.11, )"
+            },
             "Zack.DomainCommons": {
               "target": "Package",
               "version": "[1.1.3, )"

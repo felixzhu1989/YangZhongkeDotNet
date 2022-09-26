@@ -1,0 +1,15 @@
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.Infrastructure\bin\Debug\net6.0\FileService.Infrastructure.deps.json
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.Infrastructure\bin\Debug\net6.0\FileService.Infrastructure.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.Infrastructure\bin\Debug\net6.0\FileService.Infrastructure.pdb
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.Infrastructure\bin\Debug\net6.0\FileService.Domain.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.Infrastructure\bin\Debug\net6.0\FileService.Domain.pdb
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.Infrastructure\obj\Debug\net6.0\FileService.Infrastructure.csproj.AssemblyReference.cache
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.Infrastructure\obj\Debug\net6.0\FileService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.Infrastructure\obj\Debug\net6.0\FileService.Infrastructure.AssemblyInfoInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.Infrastructure\obj\Debug\net6.0\FileService.Infrastructure.AssemblyInfo.cs
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.Infrastructure\obj\Debug\net6.0\FileService.Infrastructure.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.Infrastructure\obj\Debug\net6.0\FileService.Infrastructure.csproj.CopyComplete
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.Infrastructure\obj\Debug\net6.0\FileService.Infrastructure.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.Infrastructure\obj\Debug\net6.0\refint\FileService.Infrastructure.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.Infrastructure\obj\Debug\net6.0\FileService.Infrastructure.pdb
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.Infrastructure\obj\Debug\net6.0\ref\FileService.Infrastructure.dll
