@@ -1,0 +1,326 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\CSharp\\repos\\YangZhongkeDotNet\\YouZack\\Listening.Admin.WebAPI\\Listening.Admin.WebAPI.csproj": {}
+  },
+  "projects": {
+    "E:\\CSharp\\repos\\YangZhongkeDotNet\\YouZack\\CommonInitializer\\CommonInitializer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\CSharp\\repos\\YangZhongkeDotNet\\YouZack\\CommonInitializer\\CommonInitializer.csproj",
+        "projectName": "CommonInitializer",
+        "projectPath": "E:\\CSharp\\repos\\YangZhongkeDotNet\\YouZack\\CommonInitializer\\CommonInitializer.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\CSharp\\repos\\YangZhongkeDotNet\\YouZack\\CommonInitializer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Zack.ASPNETCore": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Zack.AnyDBConfigProvider": {
+              "target": "Package",
+              "version": "[1.1.4, )"
+            },
+            "Zack.Commons": {
+              "target": "Package",
+              "version": "[1.1.11, )"
+            },
+            "Zack.EventBus": {
+              "target": "Package",
+              "version": "[1.1.3, )"
+            },
+            "Zack.Infrastructure": {
+              "target": "Package",
+              "version": "[1.1.3, )"
+            },
+            "Zack.JWT": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\CSharp\\repos\\YangZhongkeDotNet\\YouZack\\Listening.Admin.WebAPI\\Listening.Admin.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\CSharp\\repos\\YangZhongkeDotNet\\YouZack\\Listening.Admin.WebAPI\\Listening.Admin.WebAPI.csproj",
+        "projectName": "Listening.Admin.WebAPI",
+        "projectPath": "E:\\CSharp\\repos\\YangZhongkeDotNet\\YouZack\\Listening.Admin.WebAPI\\Listening.Admin.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\CSharp\\repos\\YangZhongkeDotNet\\YouZack\\Listening.Admin.WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\CSharp\\repos\\YangZhongkeDotNet\\YouZack\\CommonInitializer\\CommonInitializer.csproj": {
+                "projectPath": "E:\\CSharp\\repos\\YangZhongkeDotNet\\YouZack\\CommonInitializer\\CommonInitializer.csproj"
+              },
+              "E:\\CSharp\\repos\\YangZhongkeDotNet\\YouZack\\Listening.Domain\\Listening.Domain.csproj": {
+                "projectPath": "E:\\CSharp\\repos\\YangZhongkeDotNet\\YouZack\\Listening.Domain\\Listening.Domain.csproj"
+              },
+              "E:\\CSharp\\repos\\YangZhongkeDotNet\\YouZack\\Listening.Infrastructure\\Listening.Infrastructure.csproj": {
+                "projectPath": "E:\\CSharp\\repos\\YangZhongkeDotNet\\YouZack\\Listening.Infrastructure\\Listening.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Zack.EventBus": {
+              "target": "Package",
+              "version": "[1.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\CSharp\\repos\\YangZhongkeDotNet\\YouZack\\Listening.Domain\\Listening.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\CSharp\\repos\\YangZhongkeDotNet\\YouZack\\Listening.Domain\\Listening.Domain.csproj",
+        "projectName": "Listening.Domain",
+        "projectPath": "E:\\CSharp\\repos\\YangZhongkeDotNet\\YouZack\\Listening.Domain\\Listening.Domain.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\CSharp\\repos\\YangZhongkeDotNet\\YouZack\\Listening.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Opportunity.LrcParser": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "SubtitlesParser": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            },
+            "Zack.Commons": {
+              "target": "Package",
+              "version": "[1.1.11, )"
+            },
+            "Zack.DomainCommons": {
+              "target": "Package",
+              "version": "[1.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\CSharp\\repos\\YangZhongkeDotNet\\YouZack\\Listening.Infrastructure\\Listening.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\CSharp\\repos\\YangZhongkeDotNet\\YouZack\\Listening.Infrastructure\\Listening.Infrastructure.csproj",
+        "projectName": "Listening.Infrastructure",
+        "projectPath": "E:\\CSharp\\repos\\YangZhongkeDotNet\\YouZack\\Listening.Infrastructure\\Listening.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\CSharp\\repos\\YangZhongkeDotNet\\YouZack\\Listening.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\CSharp\\repos\\YangZhongkeDotNet\\YouZack\\Listening.Domain\\Listening.Domain.csproj": {
+                "projectPath": "E:\\CSharp\\repos\\YangZhongkeDotNet\\YouZack\\Listening.Domain\\Listening.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Zack.Infrastructure": {
+              "target": "Package",
+              "version": "[1.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "i3lxN4dX//VVXvt3AXt3vKHXk3ZDmusMSLoxJ5PcRdU=",
+  "Source": "Listening.Admin.WebAPI",
+  "BasePath": "_content/Listening.Admin.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

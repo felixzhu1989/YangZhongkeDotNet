@@ -1,0 +1,12 @@
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.SDK.NETCore\bin\Debug\net6.0\FileService.SDK.NETCore.deps.json
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.SDK.NETCore\bin\Debug\net6.0\FileService.SDK.NETCore.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.SDK.NETCore\bin\Debug\net6.0\FileService.SDK.NETCore.pdb
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.SDK.NETCore\obj\Debug\net6.0\FileService.SDK.NETCore.csproj.AssemblyReference.cache
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.SDK.NETCore\obj\Debug\net6.0\FileService.SDK.NETCore.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.SDK.NETCore\obj\Debug\net6.0\FileService.SDK.NETCore.AssemblyInfoInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.SDK.NETCore\obj\Debug\net6.0\FileService.SDK.NETCore.AssemblyInfo.cs
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.SDK.NETCore\obj\Debug\net6.0\FileService.SDK.NETCore.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.SDK.NETCore\obj\Debug\net6.0\FileService.SDK.NETCore.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.SDK.NETCore\obj\Debug\net6.0\refint\FileService.SDK.NETCore.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.SDK.NETCore\obj\Debug\net6.0\FileService.SDK.NETCore.pdb
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\FileService.SDK.NETCore\obj\Debug\net6.0\ref\FileService.SDK.NETCore.dll

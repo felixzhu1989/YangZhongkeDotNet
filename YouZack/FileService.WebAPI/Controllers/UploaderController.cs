@@ -8,7 +8,7 @@ namespace FileService.WebAPI.Controllers
     //NuGet安装：Install-Package Zack.ASPNETCore
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles = "Admin")]//权限
+    //[Authorize(Roles = "Admin")]//权限
     [UnitOfWork(typeof(FSDbContext))]
     //todo:要做权限控制，这个接口即对内部系统开放、又对前端用户开放。
     public class UploaderController : ControllerBase

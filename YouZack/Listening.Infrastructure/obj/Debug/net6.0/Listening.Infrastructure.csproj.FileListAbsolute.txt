@@ -1,0 +1,15 @@
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\Listening.Infrastructure\bin\Debug\net6.0\Listening.Infrastructure.deps.json
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\Listening.Infrastructure\bin\Debug\net6.0\Listening.Infrastructure.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\Listening.Infrastructure\bin\Debug\net6.0\Listening.Infrastructure.pdb
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\Listening.Infrastructure\bin\Debug\net6.0\Listening.Domain.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\Listening.Infrastructure\bin\Debug\net6.0\Listening.Domain.pdb
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\Listening.Infrastructure\obj\Debug\net6.0\Listening.Infrastructure.csproj.AssemblyReference.cache
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\Listening.Infrastructure\obj\Debug\net6.0\Listening.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\Listening.Infrastructure\obj\Debug\net6.0\Listening.Infrastructure.AssemblyInfoInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\Listening.Infrastructure\obj\Debug\net6.0\Listening.Infrastructure.AssemblyInfo.cs
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\Listening.Infrastructure\obj\Debug\net6.0\Listening.Infrastructure.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\Listening.Infrastructure\obj\Debug\net6.0\Listening.Infrastructure.csproj.CopyComplete
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\Listening.Infrastructure\obj\Debug\net6.0\Listening.Infrastructure.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\Listening.Infrastructure\obj\Debug\net6.0\refint\Listening.Infrastructure.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\Listening.Infrastructure\obj\Debug\net6.0\Listening.Infrastructure.pdb
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\Listening.Infrastructure\obj\Debug\net6.0\ref\Listening.Infrastructure.dll

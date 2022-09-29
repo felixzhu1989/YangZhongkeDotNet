@@ -1,0 +1,15 @@
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\IdentityService.Infrastructure\bin\Debug\net6.0\IdentityService.Infrastructure.deps.json
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\IdentityService.Infrastructure\bin\Debug\net6.0\IdentityService.Infrastructure.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\IdentityService.Infrastructure\bin\Debug\net6.0\IdentityService.Infrastructure.pdb
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\IdentityService.Infrastructure\bin\Debug\net6.0\IdentityService.Domain.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\IdentityService.Infrastructure\bin\Debug\net6.0\IdentityService.Domain.pdb
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\IdentityService.Infrastructure\obj\Debug\net6.0\IdentityService.Infrastructure.csproj.AssemblyReference.cache
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\IdentityService.Infrastructure\obj\Debug\net6.0\IdentityService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\IdentityService.Infrastructure\obj\Debug\net6.0\IdentityService.Infrastructure.AssemblyInfoInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\IdentityService.Infrastructure\obj\Debug\net6.0\IdentityService.Infrastructure.AssemblyInfo.cs
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\IdentityService.Infrastructure\obj\Debug\net6.0\IdentityService.Infrastructure.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\IdentityService.Infrastructure\obj\Debug\net6.0\IdentityService.Infrastructure.csproj.CopyComplete
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\IdentityService.Infrastructure\obj\Debug\net6.0\IdentityService.Infrastructure.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\IdentityService.Infrastructure\obj\Debug\net6.0\refint\IdentityService.Infrastructure.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\IdentityService.Infrastructure\obj\Debug\net6.0\IdentityService.Infrastructure.pdb
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\IdentityService.Infrastructure\obj\Debug\net6.0\ref\IdentityService.Infrastructure.dll
