@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Http;
 namespace FileService.Infrastructure.Services
 {
     /// <summary>
-    /// 实现IStorageClient，将文件存储再FileService.WebAPI的wwwroot文件夹下
+    /// 实现IStorageClient，将文件存储在FileService.WebAPI的wwwroot文件夹下
     /// </summary>
     public class MockCloudStorageClient:IStorageClient
     {

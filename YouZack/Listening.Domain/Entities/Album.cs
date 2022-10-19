@@ -12,7 +12,7 @@ namespace Listening.Domain.Entities
     {
         private Album() { }
         /// <summary>
-        /// 用户是否可见（完善后才显示，或者已经显示了，但是发现内部有问题，就先隐藏，调整了再发布）
+        /// 用户是否可见（完善后才显示，或者已经显示了，但是发现内部有问题，就先隐藏，调整了再发布）,相当于上架下架
         /// </summary>
         public bool IsVisible { get; private set; }
         /// <summary>
@@ -23,6 +23,9 @@ namespace Listening.Domain.Entities
         /// 列表中的显示序号
         /// </summary>
         public int SequenceNumber { get; private set; }
+        /// <summary>
+        /// 只能通过聚合根的标识符引用。
+        /// </summary>
         public Guid CategoryId { get; private set; }
         public static Album Create(Guid id, int sequenceNumber, MultilingualString name, Guid categoryId)
         {

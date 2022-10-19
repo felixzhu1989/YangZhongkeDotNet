@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iWAodSF7Zh9DezlY5qy6L63UnxkJMDB2W4VjlxA874ndYemdZhiAfued00RrODUA1TtMH14TaHqmxmPO8rocJA==",
+  "dgSpecHash": "rMM355fdx/NAmek476wY3dG5GhxDYesVnUwB6Izm4ToHWMoKkaFYPMylgo+B2wWLub9pO2EeQhLE+kfmv0zLZA==",
   "success": true,
   "projectFilePath": "E:\\CSharp\\repos\\YangZhongkeDotNet\\ConsoleAppRabbitMQConsumer\\ConsoleAppRabbitMQConsumer.csproj",
   "expectedPackageFiles": [

@@ -141,23 +141,41 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileService.Infrastructure"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileService.WebAPI", "YouZack\FileService.WebAPI\FileService.WebAPI.csproj", "{EA4A55E6-2E72-4EEB-8524-0468826CDBC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileService.SDK.NETCore", "YouZack\FileService.SDK.NETCore\FileService.SDK.NETCore.csproj", "{AFBFB6F6-8DC0-40DF-B54E-A505C02E001D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileService.SDK.NETCore", "YouZack\FileService.SDK.NETCore\FileService.SDK.NETCore.csproj", "{AFBFB6F6-8DC0-40DF-B54E-A505C02E001D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityService", "IdentityService", "{FF62474C-609A-4FAD-9012-027D564D90CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityService.Domain", "YouZack\IdentityService.Domain\IdentityService.Domain.csproj", "{E9988659-E167-4C4E-B5C5-EAB1D49CC605}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityService.Domain", "YouZack\IdentityService.Domain\IdentityService.Domain.csproj", "{E9988659-E167-4C4E-B5C5-EAB1D49CC605}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityService.Infrastructure", "YouZack\IdentityService.Infrastructure\IdentityService.Infrastructure.csproj", "{B06C1DF5-ACD4-47E8-AECF-71B4C63C659E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityService.Infrastructure", "YouZack\IdentityService.Infrastructure\IdentityService.Infrastructure.csproj", "{B06C1DF5-ACD4-47E8-AECF-71B4C63C659E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityService.WebAPI", "YouZack\IdentityService.WebAPI\IdentityService.WebAPI.csproj", "{82DF10E6-56F8-4D7C-B719-B7327BBDA289}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityService.WebAPI", "YouZack\IdentityService.WebAPI\IdentityService.WebAPI.csproj", "{82DF10E6-56F8-4D7C-B719-B7327BBDA289}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Listening", "Listening", "{C27A0929-3FEE-4421-9440-3FB4C3FA6217}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listening.Domain", "YouZack\Listening.Domain\Listening.Domain.csproj", "{56E174B9-7222-4535-A4A8-C375BD31A008}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Listening.Domain", "YouZack\Listening.Domain\Listening.Domain.csproj", "{56E174B9-7222-4535-A4A8-C375BD31A008}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listening.Infrastructure", "YouZack\Listening.Infrastructure\Listening.Infrastructure.csproj", "{5744F7DC-9412-4006-A47B-F55EDAF57C52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Listening.Infrastructure", "YouZack\Listening.Infrastructure\Listening.Infrastructure.csproj", "{5744F7DC-9412-4006-A47B-F55EDAF57C52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listening.Admin.WebAPI", "YouZack\Listening.Admin.WebAPI\Listening.Admin.WebAPI.csproj", "{F9040A9A-2E5B-4EE6-945B-3847EA0726F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Listening.Admin.WebAPI", "YouZack\Listening.Admin.WebAPI\Listening.Admin.WebAPI.csproj", "{F9040A9A-2E5B-4EE6-945B-3847EA0726F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listening.Main.WebAPI", "YouZack\Listening.Main.WebAPI\Listening.Main.WebAPI.csproj", "{8CB8CF70-631A-46A8-83F9-97A3E7B2D62F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MediaEncoder", "MediaEncoder", "{46DEA038-131A-42BB-95C8-817CA73EB6A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaEncoder.Domain", "YouZack\MediaEncoder.Domain\MediaEncoder.Domain.csproj", "{9783A756-4818-4B19-A3D9-E0FB02FFA5B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaEncoder.Infrastructure", "YouZack\MediaEncoder.Infrastructure\MediaEncoder.Infrastructure.csproj", "{A9D3AEA2-28DF-4750-9602-73B620571080}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaEncoder.WebAPI", "YouZack\MediaEncoder.WebAPI\MediaEncoder.WebAPI.csproj", "{1D181DA2-1C1B-4A9A-83A0-8F419FD611E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SearchService", "SearchService", "{64B910D7-7D11-4AF4-8595-CC9FD8BD40BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService.Domain", "YouZack\SearchService.Domain\SearchService.Domain.csproj", "{D24D55F0-AA68-45A8-88F9-0DBF6ED6E1CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService.Infrastructure", "YouZack\SearchService.Infrastructure\SearchService.Infrastructure.csproj", "{07F40447-A843-4B89-A1F2-F31E4F60E5DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService.WebAPI", "YouZack\SearchService.WebAPI\SearchService.WebAPI.csproj", "{B9EC77B9-D07C-4395-9B02-336E60FB4884}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -417,6 +435,34 @@ Global
 		{F9040A9A-2E5B-4EE6-945B-3847EA0726F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9040A9A-2E5B-4EE6-945B-3847EA0726F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9040A9A-2E5B-4EE6-945B-3847EA0726F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CB8CF70-631A-46A8-83F9-97A3E7B2D62F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB8CF70-631A-46A8-83F9-97A3E7B2D62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB8CF70-631A-46A8-83F9-97A3E7B2D62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB8CF70-631A-46A8-83F9-97A3E7B2D62F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9783A756-4818-4B19-A3D9-E0FB02FFA5B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9783A756-4818-4B19-A3D9-E0FB02FFA5B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9783A756-4818-4B19-A3D9-E0FB02FFA5B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9783A756-4818-4B19-A3D9-E0FB02FFA5B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9D3AEA2-28DF-4750-9602-73B620571080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9D3AEA2-28DF-4750-9602-73B620571080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9D3AEA2-28DF-4750-9602-73B620571080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9D3AEA2-28DF-4750-9602-73B620571080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D181DA2-1C1B-4A9A-83A0-8F419FD611E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D181DA2-1C1B-4A9A-83A0-8F419FD611E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D181DA2-1C1B-4A9A-83A0-8F419FD611E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D181DA2-1C1B-4A9A-83A0-8F419FD611E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D24D55F0-AA68-45A8-88F9-0DBF6ED6E1CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D24D55F0-AA68-45A8-88F9-0DBF6ED6E1CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D24D55F0-AA68-45A8-88F9-0DBF6ED6E1CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D24D55F0-AA68-45A8-88F9-0DBF6ED6E1CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07F40447-A843-4B89-A1F2-F31E4F60E5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07F40447-A843-4B89-A1F2-F31E4F60E5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07F40447-A843-4B89-A1F2-F31E4F60E5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07F40447-A843-4B89-A1F2-F31E4F60E5DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9EC77B9-D07C-4395-9B02-336E60FB4884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9EC77B9-D07C-4395-9B02-336E60FB4884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9EC77B9-D07C-4395-9B02-336E60FB4884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9EC77B9-D07C-4395-9B02-336E60FB4884}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -489,6 +535,15 @@ Global
 		{56E174B9-7222-4535-A4A8-C375BD31A008} = {C27A0929-3FEE-4421-9440-3FB4C3FA6217}
 		{5744F7DC-9412-4006-A47B-F55EDAF57C52} = {C27A0929-3FEE-4421-9440-3FB4C3FA6217}
 		{F9040A9A-2E5B-4EE6-945B-3847EA0726F3} = {C27A0929-3FEE-4421-9440-3FB4C3FA6217}
+		{8CB8CF70-631A-46A8-83F9-97A3E7B2D62F} = {C27A0929-3FEE-4421-9440-3FB4C3FA6217}
+		{46DEA038-131A-42BB-95C8-817CA73EB6A1} = {E41F1909-2A83-4345-AFED-95E93495D86A}
+		{9783A756-4818-4B19-A3D9-E0FB02FFA5B6} = {46DEA038-131A-42BB-95C8-817CA73EB6A1}
+		{A9D3AEA2-28DF-4750-9602-73B620571080} = {46DEA038-131A-42BB-95C8-817CA73EB6A1}
+		{1D181DA2-1C1B-4A9A-83A0-8F419FD611E0} = {46DEA038-131A-42BB-95C8-817CA73EB6A1}
+		{64B910D7-7D11-4AF4-8595-CC9FD8BD40BB} = {E41F1909-2A83-4345-AFED-95E93495D86A}
+		{D24D55F0-AA68-45A8-88F9-0DBF6ED6E1CB} = {64B910D7-7D11-4AF4-8595-CC9FD8BD40BB}
+		{07F40447-A843-4B89-A1F2-F31E4F60E5DD} = {64B910D7-7D11-4AF4-8595-CC9FD8BD40BB}
+		{B9EC77B9-D07C-4395-9B02-336E60FB4884} = {64B910D7-7D11-4AF4-8595-CC9FD8BD40BB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {42033C1D-7E2F-4ABB-B48E-1E0C242DF569}

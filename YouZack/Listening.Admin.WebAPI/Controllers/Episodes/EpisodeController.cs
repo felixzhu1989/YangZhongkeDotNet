@@ -52,11 +52,11 @@ namespace Listening.Admin.WebAPI.Controllers.Episodes
             else
             {
                 //非m4a文件需要先转码，为了避免非法数据污染业务数据，增加业务逻辑麻烦，按照DDD的原则，不完整的Episode不能插入数据库
-                //先临时插入Redis，转码完成再插入数据库
+                //先临时暂存到Redis中，转码完成后再插入数据库
                 Guid episodeId=Guid.NewGuid();
                 EncodingEpisodeInfo encodingEpisode = new EncodingEpisodeInfo(episodeId, request.Name, request.AlbumId, request.DurationInSecond, request.Subtitle, request.SubtitleType, "Created");
                 await _encodingEpisodeHelper.AddEncodingEpisodeAsync(episodeId, encodingEpisode);
-                //通知转码,启动转码
+                //通知转码,启动转码（【集成事件】，通知转码服务开始转码，在转码服务监听该事件）
                 _eventBus.Publish("MediaEncoding.Created",new{MediaId=episodeId,MediaUrl=request.AudioUrl,OutputFormat="m4a",SourceSystem="Listening"});
                 return episodeId;
             }

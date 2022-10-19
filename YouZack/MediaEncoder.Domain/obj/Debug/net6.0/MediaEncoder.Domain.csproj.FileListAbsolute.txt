@@ -1,0 +1,12 @@
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Domain\bin\Debug\net6.0\MediaEncoder.Domain.deps.json
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Domain\bin\Debug\net6.0\MediaEncoder.Domain.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Domain\bin\Debug\net6.0\MediaEncoder.Domain.pdb
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Domain\obj\Debug\net6.0\MediaEncoder.Domain.csproj.AssemblyReference.cache
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Domain\obj\Debug\net6.0\MediaEncoder.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Domain\obj\Debug\net6.0\MediaEncoder.Domain.AssemblyInfoInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Domain\obj\Debug\net6.0\MediaEncoder.Domain.AssemblyInfo.cs
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Domain\obj\Debug\net6.0\MediaEncoder.Domain.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Domain\obj\Debug\net6.0\MediaEncoder.Domain.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Domain\obj\Debug\net6.0\refint\MediaEncoder.Domain.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Domain\obj\Debug\net6.0\MediaEncoder.Domain.pdb
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Domain\obj\Debug\net6.0\ref\MediaEncoder.Domain.dll

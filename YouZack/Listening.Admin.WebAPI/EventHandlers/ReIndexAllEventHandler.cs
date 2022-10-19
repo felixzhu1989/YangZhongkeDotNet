@@ -4,6 +4,7 @@ using Zack.EventBus;
 namespace Listening.Admin.WebAPI.EventHandlers
 {
     [EventName("SearchService.ReIndexAll")]
+    //让搜索引擎重新收入所有的Episode
     public class ReIndexAllEventHandler : IIntegrationEventHandler
     {
         private readonly ListeningDbContext _dbContext;

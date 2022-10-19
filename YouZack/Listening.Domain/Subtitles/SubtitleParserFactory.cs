@@ -5,8 +5,7 @@ namespace Listening.Domain.Subtitles
     //解析字幕工厂模式（根据不同类型SubtitleType，提供不同的解析类），用来简化调用
     static class SubtitleParserFactory
     {
-        private static List<ISubtitleParser> parsers = new List<ISubtitleParser>();
-
+        private static List<ISubtitleParser> parsers = new();
         static SubtitleParserFactory()
         {
             //扫描本程序集中的所有实现了ISubtitleParser接口的类

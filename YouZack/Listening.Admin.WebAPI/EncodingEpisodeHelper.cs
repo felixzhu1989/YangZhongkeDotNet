@@ -4,7 +4,7 @@ namespace Listening.Admin.WebAPI
 {
     public class EncodingEpisodeHelper
     {
-        private readonly IConnectionMultiplexer _redisConn;
+        private readonly IConnectionMultiplexer _redisConn;//用于操作Redis
         public EncodingEpisodeHelper(IConnectionMultiplexer redisConn)
         {
             _redisConn = redisConn;
@@ -25,7 +25,7 @@ namespace Listening.Admin.WebAPI
         {
             string redisKeyForEpisode = GetStatusKeyForEpisode(episodeId);
             var db = _redisConn.GetDatabase();
-            //保存转码任务详细信息，供完成后插入数据库
+            //在Redis中保存转码任务详细信息，供完成后插入数据库
             await db.StringSetAsync(redisKeyForEpisode, episode.ToJsonString());
             string keyForEncodingEpisodeIdsOfAlbum = GetKeyForEncodingEpisodeIdsOfAlbum(episode.AlbumId);
             //保存这个album下所有待转码的episodeId

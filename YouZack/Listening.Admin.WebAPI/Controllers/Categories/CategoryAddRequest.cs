@@ -1,9 +1,9 @@
 ﻿using FluentValidation;
 
-//启用了<Nullable>enable</Nullable>，所以string ChineseName就是非可空，会自动校验
+
 namespace Listening.Admin.WebAPI.Controllers.Categories
 {
-    
+    //启用了<Nullable>enable</Nullable>，所以string ChineseName就是非可空，会自动校验
     public record CategoryAddRequest(MultilingualString Name, Uri CoverUrl);
     public class CategoryAddRequestValidator : AbstractValidator<CategoryAddRequest>
     {

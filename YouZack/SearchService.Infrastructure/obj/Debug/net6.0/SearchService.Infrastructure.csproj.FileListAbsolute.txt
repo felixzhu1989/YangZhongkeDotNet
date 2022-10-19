@@ -1,0 +1,15 @@
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\SearchService.Infrastructure\bin\Debug\net6.0\SearchService.Infrastructure.deps.json
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\SearchService.Infrastructure\bin\Debug\net6.0\SearchService.Infrastructure.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\SearchService.Infrastructure\bin\Debug\net6.0\SearchService.Infrastructure.pdb
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\SearchService.Infrastructure\bin\Debug\net6.0\SearchService.Domain.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\SearchService.Infrastructure\bin\Debug\net6.0\SearchService.Domain.pdb
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\SearchService.Infrastructure\obj\Debug\net6.0\SearchService.Infrastructure.csproj.AssemblyReference.cache
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\SearchService.Infrastructure\obj\Debug\net6.0\SearchService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\SearchService.Infrastructure\obj\Debug\net6.0\SearchService.Infrastructure.AssemblyInfoInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\SearchService.Infrastructure\obj\Debug\net6.0\SearchService.Infrastructure.AssemblyInfo.cs
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\SearchService.Infrastructure\obj\Debug\net6.0\SearchService.Infrastructure.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\SearchService.Infrastructure\obj\Debug\net6.0\SearchService.Infrastructure.csproj.CopyComplete
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\SearchService.Infrastructure\obj\Debug\net6.0\SearchService.Infrastructure.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\SearchService.Infrastructure\obj\Debug\net6.0\refint\SearchService.Infrastructure.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\SearchService.Infrastructure\obj\Debug\net6.0\SearchService.Infrastructure.pdb
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\SearchService.Infrastructure\obj\Debug\net6.0\ref\SearchService.Infrastructure.dll

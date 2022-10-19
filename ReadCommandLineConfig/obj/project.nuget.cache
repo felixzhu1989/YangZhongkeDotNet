@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8a8OglVKGdl8lbeqZSwMXuEADZYR4bxo6ZRZjzm7f/ocQim24JTcRAhrstPrgLVrWBtyf/vrMbEGWtPOGGJmxA==",
+  "dgSpecHash": "KcbBw0WRoBelWhNEY/FdYX6LczMdwRfm/CLp9pvV7LSqF1M3GskT4SQQDR5lXzfSB03/Owd3y5fkIVwniOmVhg==",
   "success": true,
   "projectFilePath": "E:\\CSharp\\repos\\YangZhongkeDotNet\\ReadCommandLineConfig\\ReadCommandLineConfig.csproj",
   "expectedPackageFiles": [

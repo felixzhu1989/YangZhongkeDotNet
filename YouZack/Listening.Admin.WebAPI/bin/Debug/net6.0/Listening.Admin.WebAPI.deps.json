@@ -12,7 +12,8 @@
           "Listening.Domain": "1.0.0",
           "Listening.Infrastructure": "1.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.9",
-          "Swashbuckle.AspNetCore": "6.2.3"
+          "Swashbuckle.AspNetCore": "6.2.3",
+          "Zack.EventBus": "1.1.3"
         },
         "runtime": {
           "Listening.Admin.WebAPI.dll": {}

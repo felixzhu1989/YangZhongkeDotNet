@@ -49,7 +49,7 @@ namespace FileService.SDK.NETCore
             string respString = await respMsg.Content.ReadAsStringAsync(cancellationToken);
             if (!respMsg.IsSuccessStatusCode)
                 throw new HttpRequestException($"上传失败，状态码：{respMsg.StatusCode}，响应报文：{respString}");
-            else return respString.ParseJson<Uri>();
+            return respString.ParseJson<Uri>();
         }
     }
 }

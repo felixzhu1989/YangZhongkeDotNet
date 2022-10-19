@@ -1,0 +1,16 @@
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Infrastructure\bin\Debug\net6.0\ffmpeg.exe
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Infrastructure\bin\Debug\net6.0\MediaEncoder.Infrastructure.deps.json
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Infrastructure\bin\Debug\net6.0\MediaEncoder.Infrastructure.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Infrastructure\bin\Debug\net6.0\MediaEncoder.Infrastructure.pdb
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Infrastructure\bin\Debug\net6.0\MediaEncoder.Domain.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Infrastructure\bin\Debug\net6.0\MediaEncoder.Domain.pdb
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Infrastructure\obj\Debug\net6.0\MediaEncoder.Infrastructure.csproj.AssemblyReference.cache
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Infrastructure\obj\Debug\net6.0\MediaEncoder.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Infrastructure\obj\Debug\net6.0\MediaEncoder.Infrastructure.AssemblyInfoInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Infrastructure\obj\Debug\net6.0\MediaEncoder.Infrastructure.AssemblyInfo.cs
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Infrastructure\obj\Debug\net6.0\MediaEncoder.Infrastructure.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Infrastructure\obj\Debug\net6.0\MediaEncoder.Infrastructure.csproj.CopyComplete
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Infrastructure\obj\Debug\net6.0\MediaEncoder.Infrastructure.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Infrastructure\obj\Debug\net6.0\refint\MediaEncoder.Infrastructure.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Infrastructure\obj\Debug\net6.0\MediaEncoder.Infrastructure.pdb
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\MediaEncoder.Infrastructure\obj\Debug\net6.0\ref\MediaEncoder.Infrastructure.dll

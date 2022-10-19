@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OqPyxGxUMpAqiDuoxJe9reVYmeD39FkzuEl+RmL0ril/Y7mzJP9g7oyWJUwh3cGIi9kS8+xAi+GY7l55H3syeg==",
+  "dgSpecHash": "PdDDHGhVQRchvngnEKdhuZh9RgKR++DBiCALrrKgwmadWKwJOo8zTzyS8PzQHAyl6oQ6dicckm8dnReKCWOrdQ==",
   "success": true,
   "projectFilePath": "E:\\CSharp\\repos\\YangZhongkeDotNet\\ConsoleAppRabbitMQSender\\ConsoleAppRabbitMQSender.csproj",
   "expectedPackageFiles": [

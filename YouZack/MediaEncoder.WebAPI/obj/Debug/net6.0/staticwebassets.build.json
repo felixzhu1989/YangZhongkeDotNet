@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qia2nuY8YBeczDHNBlX6ONcIqJ7xIPIbpMvWOPl5los=",
+  "Source": "MediaEncoder.WebAPI",
+  "BasePath": "_content/MediaEncoder.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
