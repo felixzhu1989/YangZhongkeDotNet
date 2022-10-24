@@ -1,0 +1,12 @@
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\CommonInitializer\bin\Release\net6.0\CommonInitializer.deps.json
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\CommonInitializer\bin\Release\net6.0\CommonInitializer.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\CommonInitializer\bin\Release\net6.0\CommonInitializer.pdb
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\CommonInitializer\obj\Release\net6.0\CommonInitializer.csproj.AssemblyReference.cache
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\CommonInitializer\obj\Release\net6.0\CommonInitializer.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\CommonInitializer\obj\Release\net6.0\CommonInitializer.AssemblyInfoInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\CommonInitializer\obj\Release\net6.0\CommonInitializer.AssemblyInfo.cs
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\CommonInitializer\obj\Release\net6.0\CommonInitializer.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\CommonInitializer\obj\Release\net6.0\CommonInitializer.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\CommonInitializer\obj\Release\net6.0\refint\CommonInitializer.dll
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\CommonInitializer\obj\Release\net6.0\CommonInitializer.pdb
+E:\CSharp\repos\YangZhongkeDotNet\YouZack\CommonInitializer\obj\Release\net6.0\ref\CommonInitializer.dll
